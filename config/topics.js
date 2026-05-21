@@ -25,7 +25,7 @@ export const PILLAR_PAGES = {
 // ── Publishing settings ───────────────────────────────────────────
 export const PUBLISHING = {
   // Find your category ID: WP Admin → Posts → Categories → hover category → check tag_ID in URL
-  categoryId: 1,  // ← update after checking WP admin
+  categoryId: 10,  // ← update after checking WP admin
   postStatus: "publish",
 };
 
