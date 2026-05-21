@@ -1,7 +1,7 @@
 {
-  "name": "seo-autopilot",
+  "name": "bizinzip-seo",
   "version": "1.0.0",
-  "description": "Automated SEO pipeline",
+  "description": "Automated SEO content pipeline for BizInZip.com",
   "type": "module",
   "scripts": {
     "start": "node src/pipeline.js"
