@@ -1,4 +1,435 @@
 {
-  "topics": [],
-  "runs": []
+  "topics": [
+    {
+      "topic": "how to find local business leads",
+      "uses": 1,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": "2026-05-21T07:27:55.207Z"
+    },
+    {
+      "topic": "how to build a B2B prospect list",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "local business prospecting tips",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "how to find small business contact information",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "best ways to get business leads without a subscription",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "how insurance agents find new clients",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "real estate prospecting by zip code",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "how to find dentist leads",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "roofing contractor leads by zip code",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "how to find HVAC contractor contact info",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "plumber leads by zip code",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "auto repair shop leads for sales reps",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "how to prospect law firms locally",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "how to find mortgage broker leads",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "how to use Google Maps for lead generation",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "how to find business email addresses free",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "how to export business leads to CSV",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "pay per lead vs subscription lead generation tools",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "how to build a sales territory prospect list",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "local business data for sales teams",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "cold outreach tips for local businesses",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "how to cold call small businesses",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "email prospecting for insurance agents",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "how to write a cold email to a local business",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "sales territory mapping by zip code",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "how to prioritize leads by Google rating",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "ZoomInfo alternatives for small business",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "Apollo io vs local business prospecting tools",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "cheap lead generation tools for sales reps",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "best tools to find business phone numbers",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "Hunter io alternatives for local businesses",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "how to find insurance agencies in my area",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "how to prospect real estate agents by city",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "finding local contractors for outreach",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "how to target local businesses by industry",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "hyperlocal marketing for B2B sales",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    }
+  ],
+  "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-05-21T07:27:55.207Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-05-21T07:27:55.210Z"
+        },
+        {
+          "msg": "Topic: \"how to find local business leads\" (used 0x before)",
+          "type": "info",
+          "time": "2026-05-21T07:27:55.211Z"
+        },
+        {
+          "msg": "Active tier: 1 — Beginner (KD<=25, vol>=0)",
+          "type": "info",
+          "time": "2026-05-21T07:27:55.211Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-05-21T07:27:55.211Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-05-21T07:27:55.809Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-05-21T07:27:55.809Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-05-21T07:27:55.809Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-05-21T07:27:55.811Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-05-21T07:27:56.234Z"
+        },
+        {
+          "msg": "Found 279 published posts",
+          "type": "info",
+          "time": "2026-05-21T07:27:56.323Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-05-21T07:27:56.324Z"
+        },
+        {
+          "msg": "  Posts (3): \"Insurance Agency Leads In Miami Fl\", \"Insurance Agency Leads In Houston Tx\", \"Insurance Agency Leads In Chicago Il\"",
+          "type": "info",
+          "time": "2026-05-21T07:27:56.324Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Google Business Profile\", \"Glossary\", \"Glossary/Zip Code Prospecting\"",
+          "type": "info",
+          "time": "2026-05-21T07:27:56.324Z"
+        },
+        {
+          "msg": "Writing article for \"how to find local business leads\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-05-21T07:27:56.325Z"
+        },
+        {
+          "msg": "Article ready: \"How to Find Local Business Leads: 7 Proven Strategies That Actually Work\"",
+          "type": "info",
+          "time": "2026-05-21T07:28:41.776Z"
+        },
+        {
+          "msg": "Excerpt length: 147 chars",
+          "type": "info",
+          "time": "2026-05-21T07:28:41.776Z"
+        },
+        {
+          "msg": "Unsplash query: \"business networking handshake\"",
+          "type": "info",
+          "time": "2026-05-21T07:28:41.777Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-05-21T07:28:41.777Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"business networking handshake\"...",
+          "type": "info",
+          "time": "2026-05-21T07:28:41.777Z"
+        },
+        {
+          "msg": "Image: \"a man holding a baby\" by Erika Fletcher",
+          "type": "info",
+          "time": "2026-05-21T07:28:42.331Z"
+        },
+        {
+          "msg": "Downloading hero image...",
+          "type": "info",
+          "time": "2026-05-21T07:28:42.332Z"
+        },
+        {
+          "msg": "Uploading image to WordPress media library...",
+          "type": "info",
+          "time": "2026-05-21T07:28:42.441Z"
+        },
+        {
+          "msg": "Image uploaded (ID: 720)",
+          "type": "info",
+          "time": "2026-05-21T07:28:43.222Z"
+        },
+        {
+          "msg": "Meta description (147 chars): \"Learn how to find local business leads with 7 proven strategies that actually work. From geographic targeting to networking tips for sales success.\"",
+          "type": "info",
+          "time": "2026-05-21T07:28:43.731Z"
+        },
+        {
+          "msg": "Publishing post to WordPress (category ID: 1, status: publish)...",
+          "type": "info",
+          "time": "2026-05-21T07:28:43.731Z"
+        },
+        {
+          "msg": "Published: https://bizinzip.com/how-to-find-local-business-leads-7-proven-strategies-that-actually-work/ (post ID: 721, category: 1)",
+          "type": "info",
+          "time": "2026-05-21T07:28:46.035Z"
+        },
+        {
+          "msg": "Writing Yoast SEO fields...",
+          "type": "info",
+          "time": "2026-05-21T07:28:46.035Z"
+        },
+        {
+          "msg": "  Focus keyphrase : \"how to find local business leads\"",
+          "type": "info",
+          "time": "2026-05-21T07:28:46.035Z"
+        },
+        {
+          "msg": "  Meta description: \"Learn how to find local business leads with 7 proven strategies that actually work. From geographic targeting to networking tips for sales success.\"",
+          "type": "info",
+          "time": "2026-05-21T07:28:46.035Z"
+        },
+        {
+          "msg": "Yoast fields sent but not confirmed — enable REST API in Yoast Settings → Integrations",
+          "type": "warn",
+          "time": "2026-05-21T07:28:47.176Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-05-21T07:28:47.176Z"
+        }
+      ],
+      "topic": "how to find local business leads",
+      "tierId": 1,
+      "keyword": "how to find local business leads",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "How to Find Local Business Leads: 7 Proven Strategies That Actually Work",
+      "imageUrl": "https://images.unsplash.com/photo-1665072204431-b3ba11bd6d06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMG5ldHdvcmtpbmclMjBoYW5kc2hha2V8ZW58MXwwfHx8MTc3OTM0ODUyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Erika Fletcher",
+      "postId": 721,
+      "postUrl": "https://bizinzip.com/how-to-find-local-business-leads-7-proven-strategies-that-actually-work/",
+      "mediaId": 720,
+      "mediaUrl": "https://bizinzip.com/wp-content/uploads/2026/05/how-to-find-local-business-leads-hero.jpg",
+      "finishedAt": "2026-05-21T07:28:47.176Z"
+    }
+  ]
 }
