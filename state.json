@@ -16,10 +16,10 @@
     },
     {
       "topic": "local business prospecting tips",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-05-21T11:30:08.079Z"
     },
     {
       "topic": "how to find small business contact information",
@@ -254,6 +254,183 @@
     }
   ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-05-21T11:30:08.079Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-05-21T11:30:08.083Z"
+        },
+        {
+          "msg": "Topic: \"local business prospecting tips\" (used 0x before)",
+          "type": "info",
+          "time": "2026-05-21T11:30:08.083Z"
+        },
+        {
+          "msg": "Active tier: 1 — Beginner (KD<=25, vol>=0)",
+          "type": "info",
+          "time": "2026-05-21T11:30:08.083Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-05-21T11:30:08.084Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-05-21T11:30:08.588Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-05-21T11:30:08.588Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-05-21T11:30:08.588Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-05-21T11:30:08.590Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-05-21T11:30:08.874Z"
+        },
+        {
+          "msg": "Found 279 published posts",
+          "type": "info",
+          "time": "2026-05-21T11:30:08.876Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-05-21T11:30:08.877Z"
+        },
+        {
+          "msg": "  Posts (3): \"Car Wash\", \"New York Ny\", \"New York Ny 2\"",
+          "type": "info",
+          "time": "2026-05-21T11:30:08.877Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Zip Code Prospecting\", \"Glossary/Google Business Profile\", \"Glossary/Niche Prospecting\"",
+          "type": "info",
+          "time": "2026-05-21T11:30:08.877Z"
+        },
+        {
+          "msg": "Writing article for \"local business prospecting tips\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-05-21T11:30:08.877Z"
+        },
+        {
+          "msg": "Article ready: \"7 Local Business Prospecting Tips That Actually Work (From a Sales Pro)\"",
+          "type": "info",
+          "time": "2026-05-21T11:31:00.789Z"
+        },
+        {
+          "msg": "Excerpt length: 186 chars",
+          "type": "info",
+          "time": "2026-05-21T11:31:00.789Z"
+        },
+        {
+          "msg": "Unsplash query: \"business handshake office\"",
+          "type": "info",
+          "time": "2026-05-21T11:31:00.790Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-05-21T11:31:00.790Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"business handshake office\"...",
+          "type": "info",
+          "time": "2026-05-21T11:31:00.790Z"
+        },
+        {
+          "msg": "Image: \"two men facing each other while shake hands and smiling\" by Sebastian Herrmann",
+          "type": "info",
+          "time": "2026-05-21T11:31:04.420Z"
+        },
+        {
+          "msg": "Downloading hero image...",
+          "type": "info",
+          "time": "2026-05-21T11:31:04.421Z"
+        },
+        {
+          "msg": "Uploading image to WordPress media library...",
+          "type": "info",
+          "time": "2026-05-21T11:31:04.591Z"
+        },
+        {
+          "msg": "Image uploaded (ID: 726)",
+          "type": "info",
+          "time": "2026-05-21T11:31:07.166Z"
+        },
+        {
+          "msg": "Meta description (155 chars): \"Master local business prospecting tips that actually work. Learn geographic targeting, timing strategies, and proven techniques from a sales professiona...\"",
+          "type": "info",
+          "time": "2026-05-21T11:31:07.730Z"
+        },
+        {
+          "msg": "Publishing post to WordPress (category ID: 10, status: publish)...",
+          "type": "info",
+          "time": "2026-05-21T11:31:07.730Z"
+        },
+        {
+          "msg": "Published: https://bizinzip.com/7-local-business-prospecting-tips-that-actually-work-from-a-sales-pro/ (post ID: 727, category: 10)",
+          "type": "info",
+          "time": "2026-05-21T11:31:10.143Z"
+        },
+        {
+          "msg": "Writing Yoast SEO fields...",
+          "type": "info",
+          "time": "2026-05-21T11:31:10.143Z"
+        },
+        {
+          "msg": "  Focus keyphrase : \"local business prospecting tips\"",
+          "type": "info",
+          "time": "2026-05-21T11:31:10.143Z"
+        },
+        {
+          "msg": "  Meta description: \"Master local business prospecting tips that actually work. Learn geographic targeting, timing strategies, and proven techniques from a sales professiona...\"",
+          "type": "info",
+          "time": "2026-05-21T11:31:10.143Z"
+        },
+        {
+          "msg": "Yoast fields confirmed — keyphrase: \"local business prospecting tips\", desc: 155 chars",
+          "type": "info",
+          "time": "2026-05-21T11:31:13.835Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-05-21T11:31:13.835Z"
+        }
+      ],
+      "topic": "local business prospecting tips",
+      "tierId": 1,
+      "keyword": "local business prospecting tips",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "7 Local Business Prospecting Tips That Actually Work (From a Sales Pro)",
+      "imageUrl": "https://images.unsplash.com/photo-1549923746-c502d488b3ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMGhhbmRzaGFrZSUyMG9mZmljZXxlbnwxfDB8fHwxNzc5MzYzMDYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Sebastian Herrmann",
+      "postId": 727,
+      "postUrl": "https://bizinzip.com/7-local-business-prospecting-tips-that-actually-work-from-a-sales-pro/",
+      "mediaId": 726,
+      "mediaUrl": "https://bizinzip.com/wp-content/uploads/2026/05/local-business-prospecting-tips-hero.jpg",
+      "finishedAt": "2026-05-21T11:31:13.835Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-05-21T07:36:20.559Z",
