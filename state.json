@@ -9,10 +9,10 @@
     },
     {
       "topic": "how to build a B2B prospect list",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-05-21T07:36:20.559Z"
     },
     {
       "topic": "local business prospecting tips",
@@ -254,6 +254,183 @@
     }
   ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-05-21T07:36:20.559Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-05-21T07:36:20.563Z"
+        },
+        {
+          "msg": "Topic: \"how to build a B2B prospect list\" (used 0x before)",
+          "type": "info",
+          "time": "2026-05-21T07:36:20.563Z"
+        },
+        {
+          "msg": "Active tier: 1 — Beginner (KD<=25, vol>=0)",
+          "type": "info",
+          "time": "2026-05-21T07:36:20.564Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-05-21T07:36:20.564Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-05-21T07:36:21.083Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-05-21T07:36:21.083Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-05-21T07:36:21.083Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-05-21T07:36:21.085Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-05-21T07:36:21.432Z"
+        },
+        {
+          "msg": "Found 279 published posts",
+          "type": "info",
+          "time": "2026-05-21T07:36:21.434Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-05-21T07:36:21.435Z"
+        },
+        {
+          "msg": "  Posts (3): \"Car Wash\", \"New York Ny\", \"New York Ny 2\"",
+          "type": "info",
+          "time": "2026-05-21T07:36:21.435Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Prospect List\", \"Glossary/Contact List Building\", \"Glossary\"",
+          "type": "info",
+          "time": "2026-05-21T07:36:21.435Z"
+        },
+        {
+          "msg": "Writing article for \"how to build a B2B prospect list\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-05-21T07:36:21.436Z"
+        },
+        {
+          "msg": "Article ready: \"How to Build a B2B Prospect List That Actually Converts\"",
+          "type": "info",
+          "time": "2026-05-21T07:37:05.403Z"
+        },
+        {
+          "msg": "Excerpt length: 179 chars",
+          "type": "info",
+          "time": "2026-05-21T07:37:05.403Z"
+        },
+        {
+          "msg": "Unsplash query: \"business meeting handshake\"",
+          "type": "info",
+          "time": "2026-05-21T07:37:05.403Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-05-21T07:37:05.403Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"business meeting handshake\"...",
+          "type": "info",
+          "time": "2026-05-21T07:37:05.404Z"
+        },
+        {
+          "msg": "Image: \"a man and a woman shaking hands in front of a laptop\" by Mina Rad",
+          "type": "info",
+          "time": "2026-05-21T07:37:05.891Z"
+        },
+        {
+          "msg": "Downloading hero image...",
+          "type": "info",
+          "time": "2026-05-21T07:37:05.892Z"
+        },
+        {
+          "msg": "Uploading image to WordPress media library...",
+          "type": "info",
+          "time": "2026-05-21T07:37:05.913Z"
+        },
+        {
+          "msg": "Image uploaded (ID: 723)",
+          "type": "info",
+          "time": "2026-05-21T07:37:06.777Z"
+        },
+        {
+          "msg": "Meta description (155 chars): \"Learn how to build a B2B prospect list that converts with 7 proven methods. Get practical tips for finding qualified leads, data accuracy, and list main...\"",
+          "type": "info",
+          "time": "2026-05-21T07:37:07.276Z"
+        },
+        {
+          "msg": "Publishing post to WordPress (category ID: 10, status: publish)...",
+          "type": "info",
+          "time": "2026-05-21T07:37:07.276Z"
+        },
+        {
+          "msg": "Published: https://bizinzip.com/how-to-build-a-b2b-prospect-list-that-actually-converts/ (post ID: 724, category: 10)",
+          "type": "info",
+          "time": "2026-05-21T07:37:09.450Z"
+        },
+        {
+          "msg": "Writing Yoast SEO fields...",
+          "type": "info",
+          "time": "2026-05-21T07:37:09.450Z"
+        },
+        {
+          "msg": "  Focus keyphrase : \"how to build a B2B prospect list\"",
+          "type": "info",
+          "time": "2026-05-21T07:37:09.450Z"
+        },
+        {
+          "msg": "  Meta description: \"Learn how to build a B2B prospect list that converts with 7 proven methods. Get practical tips for finding qualified leads, data accuracy, and list main...\"",
+          "type": "info",
+          "time": "2026-05-21T07:37:09.450Z"
+        },
+        {
+          "msg": "Yoast fields confirmed — keyphrase: \"how to build a B2B prospect list\", desc: 155 chars",
+          "type": "info",
+          "time": "2026-05-21T07:37:10.676Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-05-21T07:37:10.676Z"
+        }
+      ],
+      "topic": "how to build a B2B prospect list",
+      "tierId": 1,
+      "keyword": "how to build a B2B prospect list",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "How to Build a B2B Prospect List That Actually Converts",
+      "imageUrl": "https://images.unsplash.com/photo-1686771416282-3888ddaf249b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwyfHxidXNpbmVzcyUyMG1lZXRpbmclMjBoYW5kc2hha2V8ZW58MXwwfHx8MTc3OTM0OTAyNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Mina Rad",
+      "postId": 724,
+      "postUrl": "https://bizinzip.com/how-to-build-a-b2b-prospect-list-that-actually-converts/",
+      "mediaId": 723,
+      "mediaUrl": "https://bizinzip.com/wp-content/uploads/2026/05/how-to-build-a-b2b-prospect-list-hero.jpg",
+      "finishedAt": "2026-05-21T07:37:10.676Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-05-21T07:27:55.207Z",
