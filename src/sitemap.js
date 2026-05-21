@@ -1,12 +1,13 @@
-// src/sitemap.js
+// src/sitemap.js — BizInZip
+// Fetches published posts and glossary terms from the BizInZip sitemap
+// for internal linking in generated articles.
 
-const POST_SITEMAP_URL  = "https://helpwithvows.com/post-sitemap.xml";
-const TERMS_SITEMAP_URL = "https://helpwithvows.com/terms-sitemap.xml";
+const POST_SITEMAP_URL  = "https://bizinzip.com/post-sitemap.xml";
+const TERMS_SITEMAP_URL = "https://bizinzip.com/glossary-sitemap.xml";
 
-// ── Shared XML parser ─────────────────────────────────────────────
 async function fetchSitemap(url, log) {
   try {
-    const res = await fetch(url, { headers: { "User-Agent": "HelpWithVows-SEO-Bot/1.0" } });
+    const res = await fetch(url, { headers: { "User-Agent": "BizInZip-SEO-Bot/1.0" } });
     if (!res.ok) {
       log(`Sitemap fetch failed for ${url} (HTTP ${res.status})`, "warn");
       return [];
@@ -17,7 +18,7 @@ async function fetchSitemap(url, log) {
     const imageTitleMatches = [...xml.matchAll(/<image:title>(.*?)<\/image:title>/g)];
 
     return urls
-      .filter(url => url.includes("helpwithvows.com") && !url.endsWith(".xml"))
+      .filter(url => url.includes("bizinzip.com") && !url.endsWith(".xml"))
       .map((url, i) => {
         const xmlTitle = (titleMatches[i] && titleMatches[i][1])
           || (imageTitleMatches[i] && imageTitleMatches[i][1]);
@@ -34,7 +35,6 @@ async function fetchSitemap(url, log) {
   }
 }
 
-// ── Public API ────────────────────────────────────────────────────
 export async function fetchPublishedPosts(log) {
   log(`Fetching post sitemap...`);
   const posts = await fetchSitemap(POST_SITEMAP_URL, log);
@@ -49,7 +49,6 @@ export async function fetchGlossaryTerms(log) {
   return terms;
 }
 
-// Score by keyword word overlap — higher = more relevant
 function scoreItems(items, keyword) {
   const kwWords = new Set(keyword.toLowerCase().split(/\s+/).filter(w => w.length > 3));
   return items
