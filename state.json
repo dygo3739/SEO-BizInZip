@@ -30,10 +30,10 @@
     },
     {
       "topic": "best ways to get business leads without a subscription",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-05-23T09:56:56.376Z"
     },
     {
       "topic": "how insurance agents find new clients",
@@ -254,6 +254,183 @@
     }
   ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-05-23T09:56:56.376Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-05-23T09:56:56.379Z"
+        },
+        {
+          "msg": "Topic: \"best ways to get business leads without a subscription\" (used 0x before)",
+          "type": "info",
+          "time": "2026-05-23T09:56:56.380Z"
+        },
+        {
+          "msg": "Active tier: 1 — Beginner (KD<=25, vol>=0)",
+          "type": "info",
+          "time": "2026-05-23T09:56:56.380Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-05-23T09:56:56.380Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-05-23T09:56:56.910Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-05-23T09:56:56.910Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-05-23T09:56:56.910Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-05-23T09:56:56.912Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-05-23T09:56:57.485Z"
+        },
+        {
+          "msg": "Found 283 published posts",
+          "type": "info",
+          "time": "2026-05-23T09:56:57.548Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-05-23T09:56:57.550Z"
+        },
+        {
+          "msg": "  Posts (3): \"How To Find Local Business Leads 7 Proven Strategies That Actually Work\", \"Insurance Agency Leads In Miami Fl\", \"Insurance Agency Leads In Houston Tx\"",
+          "type": "info",
+          "time": "2026-05-23T09:56:57.550Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Google Business Profile\", \"Glossary\", \"Glossary/Zip Code Prospecting\"",
+          "type": "info",
+          "time": "2026-05-23T09:56:57.550Z"
+        },
+        {
+          "msg": "Writing article for \"best ways to get business leads without a subscription\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-05-23T09:56:57.550Z"
+        },
+        {
+          "msg": "Article ready: \"Best Ways to Get Business Leads Without a Subscription: 12 Free Strategies That Actually Work\"",
+          "type": "info",
+          "time": "2026-05-23T09:57:43.961Z"
+        },
+        {
+          "msg": "Excerpt length: 187 chars",
+          "type": "info",
+          "time": "2026-05-23T09:57:43.961Z"
+        },
+        {
+          "msg": "Unsplash query: \"business networking meeting\"",
+          "type": "info",
+          "time": "2026-05-23T09:57:43.961Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-05-23T09:57:43.961Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"business networking meeting\"...",
+          "type": "info",
+          "time": "2026-05-23T09:57:43.961Z"
+        },
+        {
+          "msg": "Image: \"people at the table\" by Evangeline Shaw",
+          "type": "info",
+          "time": "2026-05-23T09:57:44.467Z"
+        },
+        {
+          "msg": "Downloading hero image...",
+          "type": "info",
+          "time": "2026-05-23T09:57:44.467Z"
+        },
+        {
+          "msg": "Uploading image to WordPress media library...",
+          "type": "info",
+          "time": "2026-05-23T09:57:44.517Z"
+        },
+        {
+          "msg": "Image uploaded (ID: 732)",
+          "type": "info",
+          "time": "2026-05-23T09:57:45.560Z"
+        },
+        {
+          "msg": "Meta description (155 chars): \"Discover the best ways to get business leads without a subscription. 12 proven free strategies for insurance agents, realtors & contractors to generate ...\"",
+          "type": "info",
+          "time": "2026-05-23T09:57:46.112Z"
+        },
+        {
+          "msg": "Publishing post to WordPress (category ID: 10, status: publish)...",
+          "type": "info",
+          "time": "2026-05-23T09:57:46.112Z"
+        },
+        {
+          "msg": "Published: https://bizinzip.com/best-ways-to-get-business-leads-without-a-subscription-12-free-strategies-that-actually-work/ (post ID: 733, category: 10)",
+          "type": "info",
+          "time": "2026-05-23T09:57:48.312Z"
+        },
+        {
+          "msg": "Writing Yoast SEO fields...",
+          "type": "info",
+          "time": "2026-05-23T09:57:48.312Z"
+        },
+        {
+          "msg": "  Focus keyphrase : \"best ways to get business leads without a subscription\"",
+          "type": "info",
+          "time": "2026-05-23T09:57:48.312Z"
+        },
+        {
+          "msg": "  Meta description: \"Discover the best ways to get business leads without a subscription. 12 proven free strategies for insurance agents, realtors & contractors to generate ...\"",
+          "type": "info",
+          "time": "2026-05-23T09:57:48.312Z"
+        },
+        {
+          "msg": "Yoast fields confirmed — keyphrase: \"best ways to get business leads without a subscription\", desc: 155 chars",
+          "type": "info",
+          "time": "2026-05-23T09:57:49.498Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-05-23T09:57:49.498Z"
+        }
+      ],
+      "topic": "best ways to get business leads without a subscription",
+      "tierId": 1,
+      "keyword": "best ways to get business leads without a subscription",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "Best Ways to Get Business Leads Without a Subscription: 12 Free Strategies That Actually Work",
+      "imageUrl": "https://images.unsplash.com/photo-1561489413-985b06da5bee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHw0fHxidXNpbmVzcyUyMG5ldHdvcmtpbmclMjBtZWV0aW5nfGVufDF8MHx8fDE3Nzk1MzAyNjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Evangeline Shaw",
+      "postId": 733,
+      "postUrl": "https://bizinzip.com/best-ways-to-get-business-leads-without-a-subscription-12-free-strategies-that-actually-work/",
+      "mediaId": 732,
+      "mediaUrl": "https://bizinzip.com/wp-content/uploads/2026/05/best-ways-to-get-business-leads-without-a-subscription-hero.jpg",
+      "finishedAt": "2026-05-23T09:57:49.498Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-05-22T10:54:20.226Z",
