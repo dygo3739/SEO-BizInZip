@@ -37,10 +37,10 @@
     },
     {
       "topic": "how insurance agents find new clients",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-05-24T09:58:18.498Z"
     },
     {
       "topic": "real estate prospecting by zip code",
@@ -254,6 +254,183 @@
     }
   ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-05-24T09:58:18.498Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-05-24T09:58:18.501Z"
+        },
+        {
+          "msg": "Topic: \"how insurance agents find new clients\" (used 0x before)",
+          "type": "info",
+          "time": "2026-05-24T09:58:18.503Z"
+        },
+        {
+          "msg": "Active tier: 1 — Beginner (KD<=25, vol>=0)",
+          "type": "info",
+          "time": "2026-05-24T09:58:18.503Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-05-24T09:58:18.503Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-05-24T09:58:19.044Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-05-24T09:58:19.044Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-05-24T09:58:19.044Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-05-24T09:58:19.046Z"
+        },
+        {
+          "msg": "Found 284 published posts",
+          "type": "info",
+          "time": "2026-05-24T09:58:21.398Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-05-24T09:58:21.542Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-05-24T09:58:21.543Z"
+        },
+        {
+          "msg": "  Posts (3): \"Insurance Agency\", \"Insurance Broker\", \"Insurance Agency Leads In Miami Fl\"",
+          "type": "info",
+          "time": "2026-05-24T09:58:21.543Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary\", \"Glossary/Zip Code Prospecting\", \"Glossary/Lead Generation\"",
+          "type": "info",
+          "time": "2026-05-24T09:58:21.544Z"
+        },
+        {
+          "msg": "Writing article for \"how insurance agents find new clients\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-05-24T09:58:21.544Z"
+        },
+        {
+          "msg": "Article ready: \"How Insurance Agents Find New Clients: 8 Proven Strategies That Work\"",
+          "type": "info",
+          "time": "2026-05-24T09:58:59.311Z"
+        },
+        {
+          "msg": "Excerpt length: 179 chars",
+          "type": "info",
+          "time": "2026-05-24T09:58:59.311Z"
+        },
+        {
+          "msg": "Unsplash query: \"business handshake meeting\"",
+          "type": "info",
+          "time": "2026-05-24T09:58:59.311Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-05-24T09:58:59.311Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"business handshake meeting\"...",
+          "type": "info",
+          "time": "2026-05-24T09:58:59.311Z"
+        },
+        {
+          "msg": "Image: \"two people shaking hands\" by Cytonn Photography",
+          "type": "info",
+          "time": "2026-05-24T09:59:00.068Z"
+        },
+        {
+          "msg": "Downloading hero image...",
+          "type": "info",
+          "time": "2026-05-24T09:59:00.069Z"
+        },
+        {
+          "msg": "Uploading image to WordPress media library...",
+          "type": "info",
+          "time": "2026-05-24T09:59:00.090Z"
+        },
+        {
+          "msg": "Image uploaded (ID: 735)",
+          "type": "info",
+          "time": "2026-05-24T09:59:01.582Z"
+        },
+        {
+          "msg": "Meta description (155 chars): \"Discover the 8 proven strategies on how insurance agents find new clients consistently. From local prospecting to digital tools, learn systematic approa...\"",
+          "type": "info",
+          "time": "2026-05-24T09:59:02.143Z"
+        },
+        {
+          "msg": "Publishing post to WordPress (category ID: 10, status: publish)...",
+          "type": "info",
+          "time": "2026-05-24T09:59:02.143Z"
+        },
+        {
+          "msg": "Published: https://bizinzip.com/how-insurance-agents-find-new-clients-8-proven-strategies-that-work/ (post ID: 736, category: 10)",
+          "type": "info",
+          "time": "2026-05-24T09:59:04.539Z"
+        },
+        {
+          "msg": "Writing Yoast SEO fields...",
+          "type": "info",
+          "time": "2026-05-24T09:59:04.539Z"
+        },
+        {
+          "msg": "  Focus keyphrase : \"how insurance agents find new clients\"",
+          "type": "info",
+          "time": "2026-05-24T09:59:04.539Z"
+        },
+        {
+          "msg": "  Meta description: \"Discover the 8 proven strategies on how insurance agents find new clients consistently. From local prospecting to digital tools, learn systematic approa...\"",
+          "type": "info",
+          "time": "2026-05-24T09:59:04.539Z"
+        },
+        {
+          "msg": "Yoast fields confirmed — keyphrase: \"how insurance agents find new clients\", desc: 155 chars",
+          "type": "info",
+          "time": "2026-05-24T09:59:07.915Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-05-24T09:59:07.915Z"
+        }
+      ],
+      "topic": "how insurance agents find new clients",
+      "tierId": 1,
+      "keyword": "how insurance agents find new clients",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "How Insurance Agents Find New Clients: 8 Proven Strategies That Work",
+      "imageUrl": "https://images.unsplash.com/photo-1521791136064-7986c2920216?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwzfHxidXNpbmVzcyUyMGhhbmRzaGFrZSUyMG1lZXRpbmd8ZW58MXwwfHx8MTc3OTYxNjczOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Cytonn Photography",
+      "postId": 736,
+      "postUrl": "https://bizinzip.com/how-insurance-agents-find-new-clients-8-proven-strategies-that-work/",
+      "mediaId": 735,
+      "mediaUrl": "https://bizinzip.com/wp-content/uploads/2026/05/how-insurance-agents-find-new-clients-hero.jpg",
+      "finishedAt": "2026-05-24T09:59:07.915Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-05-23T09:56:56.376Z",
