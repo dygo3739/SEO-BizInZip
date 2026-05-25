@@ -44,10 +44,10 @@
     },
     {
       "topic": "real estate prospecting by zip code",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-05-25T11:55:28.647Z"
     },
     {
       "topic": "how to find dentist leads",
@@ -254,6 +254,135 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-05-25T11:55:28.647Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-05-25T11:55:28.650Z"
+        },
+        {
+          "msg": "Topic: \"real estate prospecting by zip code\" (used 0x before)",
+          "type": "info",
+          "time": "2026-05-25T11:55:28.652Z"
+        },
+        {
+          "msg": "Active tier: 1 — Beginner (KD<=25, vol>=0)",
+          "type": "info",
+          "time": "2026-05-25T11:55:28.652Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-05-25T11:55:28.652Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-05-25T11:55:29.137Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-05-25T11:55:29.137Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-05-25T11:55:29.138Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-05-25T11:55:29.139Z"
+        },
+        {
+          "msg": "Found 0 glossary terms",
+          "type": "info",
+          "time": "2026-05-25T11:55:29.685Z"
+        },
+        {
+          "msg": "Found 0 published posts",
+          "type": "info",
+          "time": "2026-05-25T11:55:29.686Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-05-25T11:55:29.687Z"
+        },
+        {
+          "msg": "  Posts (0): none",
+          "type": "info",
+          "time": "2026-05-25T11:55:29.687Z"
+        },
+        {
+          "msg": "  Terms (0): none",
+          "type": "info",
+          "time": "2026-05-25T11:55:29.687Z"
+        },
+        {
+          "msg": "Writing article for \"real estate prospecting by zip code\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-05-25T11:55:29.687Z"
+        },
+        {
+          "msg": "Article ready: \"Real Estate Prospecting by Zip Code: Your Complete Guide to Local Lead Generation\"",
+          "type": "info",
+          "time": "2026-05-25T11:56:11.364Z"
+        },
+        {
+          "msg": "Excerpt length: 203 chars",
+          "type": "info",
+          "time": "2026-05-25T11:56:11.364Z"
+        },
+        {
+          "msg": "Unsplash query: \"real estate neighborhood houses\"",
+          "type": "info",
+          "time": "2026-05-25T11:56:11.364Z"
+        },
+        {
+          "msg": "Post links: 0 | Term links: 0",
+          "type": "info",
+          "time": "2026-05-25T11:56:11.364Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"real estate neighborhood houses\"...",
+          "type": "info",
+          "time": "2026-05-25T11:56:11.364Z"
+        },
+        {
+          "msg": "Image: \"aerial photography of rural\" by Breno Assis",
+          "type": "info",
+          "time": "2026-05-25T11:56:11.861Z"
+        },
+        {
+          "msg": "Downloading hero image...",
+          "type": "info",
+          "time": "2026-05-25T11:56:11.861Z"
+        },
+        {
+          "msg": "Uploading image to WordPress media library...",
+          "type": "info",
+          "time": "2026-05-25T11:56:11.886Z"
+        }
+      ],
+      "topic": "real estate prospecting by zip code",
+      "tierId": 1,
+      "keyword": "real estate prospecting by zip code",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 0,
+      "internalTermLinks": 0,
+      "title": "Real Estate Prospecting by Zip Code: Your Complete Guide to Local Lead Generation",
+      "imageUrl": "https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwzfHxyZWFsJTIwZXN0YXRlJTIwbmVpZ2hib3Job29kJTIwaG91c2VzfGVufDF8MHx8fDE3Nzk3MTAxNzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Breno Assis",
+      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
+      "finishedAt": "2026-05-25T11:56:12.227Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-05-24T09:58:18.498Z",
