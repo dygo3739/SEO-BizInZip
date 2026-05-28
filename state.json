@@ -51,10 +51,10 @@
     },
     {
       "topic": "how to find dentist leads",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-05-28T11:41:19.310Z"
     },
     {
       "topic": "roofing contractor leads by zip code",
@@ -254,6 +254,183 @@
     }
   ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-05-28T11:41:19.310Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-05-28T11:41:19.313Z"
+        },
+        {
+          "msg": "Topic: \"how to find dentist leads\" (used 0x before)",
+          "type": "info",
+          "time": "2026-05-28T11:41:19.315Z"
+        },
+        {
+          "msg": "Active tier: 1 — Beginner (KD<=25, vol>=0)",
+          "type": "info",
+          "time": "2026-05-28T11:41:19.315Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-05-28T11:41:19.315Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-05-28T11:41:19.923Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-05-28T11:41:19.923Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-05-28T11:41:19.923Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-05-28T11:41:19.925Z"
+        },
+        {
+          "msg": "Found 285 published posts",
+          "type": "info",
+          "time": "2026-05-28T11:41:21.804Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-05-28T11:41:21.930Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-05-28T11:41:21.932Z"
+        },
+        {
+          "msg": "  Posts (3): \"Dentist Leads In Chicago Il\", \"Dentist Leads In Houston Tx\", \"Dentist Leads In Los Angeles Ca\"",
+          "type": "info",
+          "time": "2026-05-28T11:41:21.932Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary\", \"Glossary/Zip Code Prospecting\", \"Glossary/Lead Generation\"",
+          "type": "info",
+          "time": "2026-05-28T11:41:21.932Z"
+        },
+        {
+          "msg": "Writing article for \"how to find dentist leads\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-05-28T11:41:21.932Z"
+        },
+        {
+          "msg": "Article ready: \"How to Find Dentist Leads: A Complete Guide for B2B Sales Success\"",
+          "type": "info",
+          "time": "2026-05-28T11:42:09.131Z"
+        },
+        {
+          "msg": "Excerpt length: 190 chars",
+          "type": "info",
+          "time": "2026-05-28T11:42:09.131Z"
+        },
+        {
+          "msg": "Unsplash query: \"business networking professional meeting\"",
+          "type": "info",
+          "time": "2026-05-28T11:42:09.131Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-05-28T11:42:09.131Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"business networking professional meeting\"...",
+          "type": "info",
+          "time": "2026-05-28T11:42:09.132Z"
+        },
+        {
+          "msg": "Image: \"man standing in front of people sitting beside table with laptop computers\" by Campaign Creators",
+          "type": "info",
+          "time": "2026-05-28T11:42:09.860Z"
+        },
+        {
+          "msg": "Downloading hero image...",
+          "type": "info",
+          "time": "2026-05-28T11:42:09.861Z"
+        },
+        {
+          "msg": "Uploading image to WordPress media library...",
+          "type": "info",
+          "time": "2026-05-28T11:42:09.937Z"
+        },
+        {
+          "msg": "Image uploaded (ID: 880)",
+          "type": "info",
+          "time": "2026-05-28T11:42:10.915Z"
+        },
+        {
+          "msg": "Meta description (155 chars): \"Learn proven strategies for how to find dentist leads that convert. Discover digital research methods, networking tactics, and prospecting tools to conn...\"",
+          "type": "info",
+          "time": "2026-05-28T11:42:11.221Z"
+        },
+        {
+          "msg": "Publishing post to WordPress (category ID: 10, status: publish)...",
+          "type": "info",
+          "time": "2026-05-28T11:42:11.221Z"
+        },
+        {
+          "msg": "Published: https://bizinzip.com/how-to-find-dentist-leads-a-complete-guide-for-b2b-sales-success/ (post ID: 881, category: 10)",
+          "type": "info",
+          "time": "2026-05-28T11:42:15.236Z"
+        },
+        {
+          "msg": "Writing Yoast SEO fields...",
+          "type": "info",
+          "time": "2026-05-28T11:42:15.236Z"
+        },
+        {
+          "msg": "  Focus keyphrase : \"how to find dentist leads\"",
+          "type": "info",
+          "time": "2026-05-28T11:42:15.236Z"
+        },
+        {
+          "msg": "  Meta description: \"Learn proven strategies for how to find dentist leads that convert. Discover digital research methods, networking tactics, and prospecting tools to conn...\"",
+          "type": "info",
+          "time": "2026-05-28T11:42:15.236Z"
+        },
+        {
+          "msg": "Yoast fields confirmed — keyphrase: \"how to find dentist leads\", desc: 155 chars",
+          "type": "info",
+          "time": "2026-05-28T11:42:16.404Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-05-28T11:42:16.404Z"
+        }
+      ],
+      "topic": "how to find dentist leads",
+      "tierId": 1,
+      "keyword": "how to find dentist leads",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "How to Find Dentist Leads: A Complete Guide for B2B Sales Success",
+      "imageUrl": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMG5ldHdvcmtpbmclMjBwcm9mZXNzaW9uYWwlMjBtZWV0aW5nfGVufDF8MHx8fDE3Nzk5Njg1Mjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Campaign Creators",
+      "postId": 881,
+      "postUrl": "https://bizinzip.com/how-to-find-dentist-leads-a-complete-guide-for-b2b-sales-success/",
+      "mediaId": 880,
+      "mediaUrl": "https://bizinzip.com/wp-content/uploads/2026/05/how-to-find-dentist-leads-hero.jpg",
+      "finishedAt": "2026-05-28T11:42:16.404Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-05-25T11:55:28.647Z",
