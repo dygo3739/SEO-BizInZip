@@ -79,10 +79,10 @@
     },
     {
       "topic": "auto repair shop leads for sales reps",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-05-31T09:52:34.469Z"
     },
     {
       "topic": "how to prospect law firms locally",
@@ -254,6 +254,125 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-05-31T09:52:34.469Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-05-31T09:52:34.473Z"
+        },
+        {
+          "msg": "Topic: \"auto repair shop leads for sales reps\" (used 0x before)",
+          "type": "info",
+          "time": "2026-05-31T09:52:34.474Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-05-31T09:52:34.474Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-05-31T09:52:34.474Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-05-31T09:52:35.081Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-05-31T09:52:35.082Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-05-31T09:52:35.082Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-05-31T09:52:35.084Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-05-31T09:52:35.145Z"
+        },
+        {
+          "msg": "Found 287 published posts",
+          "type": "info",
+          "time": "2026-05-31T09:52:35.147Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-05-31T09:52:35.148Z"
+        },
+        {
+          "msg": "  Posts (3): \"Auto Repair Shop Leads In Los Angeles Ca\", \"Auto Repair Shop Leads In Chicago Il\", \"Auto Repair Shop Leads In Houston Tx\"",
+          "type": "info",
+          "time": "2026-05-31T09:52:35.148Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Outbound Sales\", \"Glossary/B2b Sales\", \"Glossary\"",
+          "type": "info",
+          "time": "2026-05-31T09:52:35.148Z"
+        },
+        {
+          "msg": "Writing article for \"auto repair shop leads for sales reps\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-05-31T09:52:35.149Z"
+        },
+        {
+          "msg": "Article ready: \"Auto Repair Shop Leads for Sales Reps: Complete Guide to Finding Quality Prospects\"",
+          "type": "info",
+          "time": "2026-05-31T09:53:16.945Z"
+        },
+        {
+          "msg": "Excerpt length: 148 chars",
+          "type": "info",
+          "time": "2026-05-31T09:53:16.945Z"
+        },
+        {
+          "msg": "Unsplash query: \"auto repair garage mechanic\"",
+          "type": "info",
+          "time": "2026-05-31T09:53:16.945Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-05-31T09:53:16.945Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"auto repair garage mechanic\"...",
+          "type": "info",
+          "time": "2026-05-31T09:53:16.945Z"
+        },
+        {
+          "msg": "Image: \"black metal tool lot\" by todd kent",
+          "type": "info",
+          "time": "2026-05-31T09:53:17.585Z"
+        }
+      ],
+      "topic": "auto repair shop leads for sales reps",
+      "tierId": 2,
+      "keyword": "auto repair shop leads for sales reps",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "Auto Repair Shop Leads for Sales Reps: Complete Guide to Finding Quality Prospects",
+      "imageUrl": "https://images.unsplash.com/photo-1570129476815-ba368ac77013?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwyfHxhdXRvJTIwcmVwYWlyJTIwZ2FyYWdlJTIwbWVjaGFuaWN8ZW58MXwwfHx8MTc4MDIyMTE5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "todd kent",
+      "error": "Post publish failed (HTTP 400): {\"code\":\"rest_invalid_param\",\"message\":\"Invalid parameter(s): featured_media\",\"data\":{\"status\":400,\"params\":{\"featured_media\":\"featured_media is not of type integer.\"},\"details\":{\"featured_media\":{\"code\":\"rest_invalid_type\",\"message\":\"featured_media is not of type integer.\",\"data\":{\"param\":\"featured",
+      "finishedAt": "2026-05-31T09:53:18.034Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-05-31T07:33:26.595Z",
