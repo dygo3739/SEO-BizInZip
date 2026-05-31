@@ -93,10 +93,10 @@
     },
     {
       "topic": "how to find mortgage broker leads",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-05-31T10:14:17.884Z"
     },
     {
       "topic": "how to use Google Maps for lead generation",
@@ -183,35 +183,70 @@
       "lastRun": null
     },
     {
-      "topic": "ZoomInfo alternatives for small business",
+      "topic": "ZoomInfo alternatives for local sales reps",
       "uses": 0,
       "lastKd": null,
       "lastScore": null,
       "lastRun": null
     },
     {
-      "topic": "Apollo io vs local business prospecting tools",
+      "topic": "why local businesses don't need ZoomInfo",
       "uses": 0,
       "lastKd": null,
       "lastScore": null,
       "lastRun": null
     },
     {
-      "topic": "cheap lead generation tools for sales reps",
+      "topic": "D7 Lead Finder vs BizInZip",
       "uses": 0,
       "lastKd": null,
       "lastScore": null,
       "lastRun": null
     },
     {
-      "topic": "best tools to find business phone numbers",
+      "topic": "Outscraper alternatives for non-technical sales reps",
       "uses": 0,
       "lastKd": null,
       "lastScore": null,
       "lastRun": null
     },
     {
-      "topic": "Hunter io alternatives for local businesses",
+      "topic": "best Google Maps scraping tools for sales",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "cheap alternatives to ZoomInfo for small business",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "PhantomBuster alternatives for local prospecting",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "how to find local business contacts without a data subscription",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "Google Maps lead generation tools compared",
+      "uses": 0,
+      "lastKd": null,
+      "lastScore": null,
+      "lastRun": null
+    },
+    {
+      "topic": "best tools to find local business phone numbers",
       "uses": 0,
       "lastKd": null,
       "lastScore": null,
@@ -254,6 +289,130 @@
     }
   ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-05-31T10:14:17.884Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-05-31T10:14:17.888Z"
+        },
+        {
+          "msg": "Topic: \"how to find mortgage broker leads\" (used 0x before)",
+          "type": "info",
+          "time": "2026-05-31T10:14:17.889Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-05-31T10:14:17.890Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-05-31T10:14:17.891Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-05-31T10:14:18.318Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-05-31T10:14:18.318Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-05-31T10:14:18.318Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-05-31T10:14:18.320Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-05-31T10:14:18.983Z"
+        },
+        {
+          "msg": "Found 287 published posts",
+          "type": "info",
+          "time": "2026-05-31T10:14:19.028Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-05-31T10:14:19.029Z"
+        },
+        {
+          "msg": "  Posts (3): \"Mortgage Broker Leads In Miami Fl\", \"Mortgage Broker Leads In Dallas Tx\", \"Mortgage Broker\"",
+          "type": "info",
+          "time": "2026-05-31T10:14:19.029Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary\", \"Glossary/Zip Code Prospecting\", \"Glossary/Lead Generation\"",
+          "type": "info",
+          "time": "2026-05-31T10:14:19.029Z"
+        },
+        {
+          "msg": "Writing article for \"how to find mortgage broker leads\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-05-31T10:14:19.030Z"
+        },
+        {
+          "msg": "Article ready: \"How to Find Mortgage Broker Leads: 7 Proven Strategies That Actually Work\"",
+          "type": "info",
+          "time": "2026-05-31T10:15:04.767Z"
+        },
+        {
+          "msg": "Excerpt length: 155 chars",
+          "type": "info",
+          "time": "2026-05-31T10:15:04.767Z"
+        },
+        {
+          "msg": "Unsplash query: \"business meeting handshake\"",
+          "type": "info",
+          "time": "2026-05-31T10:15:04.767Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-05-31T10:15:04.767Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"business meeting handshake\"...",
+          "type": "info",
+          "time": "2026-05-31T10:15:04.767Z"
+        },
+        {
+          "msg": "Image: \"two people shaking hands\" by Cytonn Photography",
+          "type": "info",
+          "time": "2026-05-31T10:15:05.381Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-05-31T10:15:08.101Z"
+        }
+      ],
+      "topic": "how to find mortgage broker leads",
+      "tierId": 2,
+      "keyword": "how to find mortgage broker leads",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "How to Find Mortgage Broker Leads: 7 Proven Strategies That Actually Work",
+      "imageUrl": "https://images.unsplash.com/photo-1521791136064-7986c2920216?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwzfHxidXNpbmVzcyUyMG1lZXRpbmclMjBoYW5kc2hha2V8ZW58MXwwfHx8MTc4MDIyMjUwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Cytonn Photography",
+      "postId": 1544,
+      "finishedAt": "2026-05-31T10:15:08.101Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-05-31T10:03:06.529Z",
