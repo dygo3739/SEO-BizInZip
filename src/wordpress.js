@@ -63,7 +63,7 @@ export async function uploadImage( imageBuffer, filename, mimeType = "image/jpeg
 
   const data = await res.json();
   log(`  Image uploaded (ID: ${data.id})`);
-  return data.id;
+  return parseInt( data.id, 10 );
 }
 
 // ── Publish post to WordPress ──────────────────────────────────────────────
@@ -81,14 +81,20 @@ export async function publishPost( article, imageId, keyword ) {
     log(`  Tag: ${tagName} (ID: ${tagIds[0]})`);
   }
 
+  const mediaId = parseInt( imageId, 10 );
+
   const body = {
-    title:          article.title,
-    content:        article.content,
-    excerpt:        article.excerpt   || "",
+    title:      article.title,
+    content:    article.content,
+    excerpt:    article.excerpt || "",
     status,
-    categories:     [ categoryId ],
-    tags:           tagIds,             // ← resolved from keyword via tagMap
-    featured_media: imageId || 0,
+    categories: [ categoryId ],
+    tags:       tagIds,
+    // Only include featured_media if we have a valid integer — omitting it
+    // entirely is safe; passing NaN or 0 causes WordPress REST API HTTP 400
+    ...( Number.isInteger( mediaId ) && mediaId > 0
+      ? { featured_media: mediaId }
+      : {} ),
   };
 
   const res = await fetch(`${WP_URL}/wp-json/wp/v2/posts`, {
