@@ -17,6 +17,26 @@ const AUTH    = "Basic " + Buffer.from(`${WP_USER}:${WP_PASS}`).toString("base64
 
 const log = msg => console.log(`[${new Date().toISOString()}] ${msg}`);
 
+// ── Retry wrapper — retries on HTML responses (SiteGround cache/firewall) ──
+async function fetchWithRetry( url, options, maxAttempts = 3, delayMs = 2000 ) {
+  for ( let attempt = 1; attempt <= maxAttempts; attempt++ ) {
+    const res  = await fetch( url, options );
+    const text = await res.text();
+
+    // WordPress REST API always returns JSON — HTML means a server error page
+    if ( text.trim().startsWith("<") ) {
+      if ( attempt < maxAttempts ) {
+        log(`  ⚠ WordPress returned HTML (attempt ${attempt}/${maxAttempts}) — retrying in ${delayMs/1000}s...`);
+        await new Promise( r => setTimeout( r, delayMs ) );
+        continue;
+      }
+      throw new Error(`Unexpected token '<', "${text.slice(0,20)}"... is not valid JSON`);
+    }
+
+    return { ok: res.ok, status: res.status, json: () => JSON.parse(text), text: () => text };
+  }
+}
+
 // ── Resolve tag ID from keyword using tagMap ───────────────────────────────
 function resolveTagId( keyword = "" ) {
   const kw = String( keyword || "" ).toLowerCase();
@@ -49,7 +69,7 @@ async function downloadImage( url ) {
 async function uploadImage( imageBuffer, filename, mimeType = "image/jpeg" ) {
   log("  Uploading image to WordPress media library...");
 
-  const res = await fetch(`${WP_URL}/wp-json/wp/v2/media`, {
+  const res = await fetchWithRetry(`${WP_URL}/wp-json/wp/v2/media`, {
     method:  "POST",
     headers: {
       Authorization:         AUTH,
@@ -60,11 +80,11 @@ async function uploadImage( imageBuffer, filename, mimeType = "image/jpeg" ) {
   });
 
   if ( !res.ok ) {
-    const text = await res.text();
+    const text = res.text();
     throw new Error(`Media upload failed (HTTP ${res.status}): ${text.slice(0, 200)}`);
   }
 
-  const data = await res.json();
+  const data = res.json();
   log(`  Image uploaded (ID: ${data.id})`);
   return { mediaId: parseInt( data.id, 10 ), mediaUrl: data.source_url || "" };
 }
@@ -119,7 +139,7 @@ export async function publishPost( article, keyword, image, _log ) {
       : {} ),
   };
 
-  const res = await fetch(`${WP_URL}/wp-json/wp/v2/posts`, {
+  const res = await fetchWithRetry(`${WP_URL}/wp-json/wp/v2/posts`, {
     method:  "POST",
     headers: {
       Authorization:  AUTH,
@@ -129,11 +149,11 @@ export async function publishPost( article, keyword, image, _log ) {
   });
 
   if ( !res.ok ) {
-    const text = await res.text();
+    const text = res.text();
     throw new Error(`Post publish failed (HTTP ${res.status}): ${text.slice(0, 300)}`);
   }
 
-  const data    = await res.json();
+  const data    = res.json();
   const postId  = data.id;
   const postUrl = data.link || data.guid?.rendered || "";
 
@@ -151,7 +171,7 @@ async function writeYoastMeta( postId, focusKeyphrase, metaDescription, seoTitle
   log(`    Focus keyphrase : "${focusKeyphrase}"`);
   log(`    Meta description: "${String(metaDescription).slice(0, 80)}..."`);
 
-  const res = await fetch(`${WP_URL}/wp-json/wp/v2/posts/${postId}`, {
+  const res = await fetchWithRetry(`${WP_URL}/wp-json/wp/v2/posts/${postId}`, {
     method:  "POST",
     headers: {
       Authorization:  AUTH,
@@ -167,12 +187,12 @@ async function writeYoastMeta( postId, focusKeyphrase, metaDescription, seoTitle
   });
 
   if ( !res.ok ) {
-    const text = await res.text();
+    const text = res.text();
     log(`  ⚠ Yoast meta update failed (HTTP ${res.status}): ${text.slice(0, 150)}`);
     return false;
   }
 
-  const data          = await res.json();
+  const data          = res.json();
   const confirmedKw   = data.meta?._yoast_wpseo_focuskw  || "";
   const confirmedDesc = data.meta?._yoast_wpseo_metadesc || "";
   log(`  Yoast fields confirmed — keyphrase: "${confirmedKw}", desc: ${confirmedDesc.length} chars`);
