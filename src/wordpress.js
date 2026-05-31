@@ -1,31 +1,27 @@
 // src/wordpress.js — BizInZip SEO Pipeline
-// Handles all WordPress REST API interactions:
-//   - Image upload to media library
-//   - Post publishing with category + tag
-//   - Yoast SEO meta fields
+// Handles all WordPress REST API interactions.
 //
-// Tag resolution uses PUBLISHING.tagMap from config/topics.js
-// so each post gets ONE tag automatically based on its keyword.
+// publishPost(article, keyword, image, log) matches pipeline.js call signature:
+//   - Downloads image from Unsplash URL
+//   - Uploads to WordPress media library
+//   - Publishes post with category + tag + featured image
+//   - Writes Yoast SEO meta fields
+//   - Returns { postId, postUrl, mediaId, mediaUrl }
 
 import { PUBLISHING } from "../config/topics.js";
 
 const WP_URL  = process.env.WP_URL?.replace(/\/$/, "");
 const WP_USER = process.env.WP_USER;
 const WP_PASS = process.env.WP_APP_PASSWORD;
-
-// Basic auth header — reused for every request
-const AUTH = "Basic " + Buffer.from(`${WP_USER}:${WP_PASS}`).toString("base64");
+const AUTH    = "Basic " + Buffer.from(`${WP_USER}:${WP_PASS}`).toString("base64");
 
 const log = msg => console.log(`[${new Date().toISOString()}] ${msg}`);
 
 // ── Resolve tag ID from keyword using tagMap ───────────────────────────────
-// Checks keyword against each tagMap entry in order — first match wins.
-// Falls back to salesProspecting if nothing matches, or [] if IDs not set yet.
 function resolveTagId( keyword = "" ) {
-  const kw      = String( keyword || "" ).toLowerCase();
+  const kw = String( keyword || "" ).toLowerCase();
   const { tags, tagMap } = PUBLISHING;
 
-  // If tags haven't been configured yet, skip silently
   if ( !tags || !tagMap ) return [];
   const allNull = Object.values( tags ).every( v => v === null || v === undefined );
   if ( allNull ) return [];
@@ -37,19 +33,26 @@ function resolveTagId( keyword = "" ) {
     }
   }
 
-  // Fallback — tag as Sales Prospecting
   const fallback = tags.salesProspecting;
   return fallback ? [ fallback ] : [];
 }
 
+// ── Download image buffer from URL ─────────────────────────────────────────
+async function downloadImage( url ) {
+  const res = await fetch( url );
+  if ( !res.ok ) throw new Error(`Image download failed (HTTP ${res.status}): ${url}`);
+  const buffer = await res.arrayBuffer();
+  return Buffer.from( buffer );
+}
+
 // ── Upload image buffer to WordPress media library ─────────────────────────
-export async function uploadImage( imageBuffer, filename, mimeType = "image/jpeg" ) {
+async function uploadImage( imageBuffer, filename, mimeType = "image/jpeg" ) {
   log("  Uploading image to WordPress media library...");
 
   const res = await fetch(`${WP_URL}/wp-json/wp/v2/media`, {
     method:  "POST",
     headers: {
-      Authorization:        AUTH,
+      Authorization:         AUTH,
       "Content-Disposition": `attachment; filename="${filename}"`,
       "Content-Type":        mimeType,
     },
@@ -63,26 +66,47 @@ export async function uploadImage( imageBuffer, filename, mimeType = "image/jpeg
 
   const data = await res.json();
   log(`  Image uploaded (ID: ${data.id})`);
-  return parseInt( data.id, 10 );
+  return { mediaId: parseInt( data.id, 10 ), mediaUrl: data.source_url || "" };
 }
 
-// ── Publish post to WordPress ──────────────────────────────────────────────
-export async function publishPost( article, imageId, keyword ) {
+// ── Main publish function — matches pipeline.js call signature ─────────────
+// pipeline.js calls: publishPost(article, keyword, image, log)
+// image = { url, credit: { name, link } }
+// Returns: { postId, postUrl, mediaId, mediaUrl }
+export async function publishPost( article, keyword, image, _log ) {
   keyword = String( keyword || "" );
+
   const categoryId = PUBLISHING.categoryId || 1;
   const tagIds     = resolveTagId( keyword );
   const status     = PUBLISHING.postStatus || "publish";
 
-  log(`  Publishing post to WordPress (category ID: ${categoryId}, status: ${status})...`);
+  // ── Download + upload featured image ──────────────────────────────────
+  let mediaId  = 0;
+  let mediaUrl = "";
+
+  if ( image?.url ) {
+    try {
+      log("  Downloading hero image...");
+      const buffer   = await downloadImage( image.url );
+      const filename = `bizinzip-hero-${Date.now()}.jpg`;
+      const uploaded = await uploadImage( buffer, filename, "image/jpeg" );
+      mediaId  = uploaded.mediaId;
+      mediaUrl = uploaded.mediaUrl;
+    } catch ( imgErr ) {
+      log(`  ⚠ Image upload failed: ${imgErr.message} — publishing without featured image`);
+    }
+  }
+
+  // ── Log tag ────────────────────────────────────────────────────────────
   if ( tagIds.length > 0 ) {
-    // Find which tag name we matched for logging
     const { tags } = PUBLISHING;
     const tagName = Object.entries( tags || {} ).find( ([, v]) => tagIds.includes(v) )?.[0] ?? "unknown";
     log(`  Tag: ${tagName} (ID: ${tagIds[0]})`);
   }
 
-  const mediaId = parseInt( imageId, 10 );
+  log(`  Publishing post to WordPress (category ID: ${categoryId}, status: ${status})...`);
 
+  // ── Build post body ────────────────────────────────────────────────────
   const body = {
     title:      article.title,
     content:    article.content,
@@ -90,8 +114,6 @@ export async function publishPost( article, imageId, keyword ) {
     status,
     categories: [ categoryId ],
     tags:       tagIds,
-    // Only include featured_media if we have a valid integer — omitting it
-    // entirely is safe; passing NaN or 0 causes WordPress REST API HTTP 400
     ...( Number.isInteger( mediaId ) && mediaId > 0
       ? { featured_media: mediaId }
       : {} ),
@@ -100,7 +122,7 @@ export async function publishPost( article, imageId, keyword ) {
   const res = await fetch(`${WP_URL}/wp-json/wp/v2/posts`, {
     method:  "POST",
     headers: {
-      Authorization: AUTH,
+      Authorization:  AUTH,
       "Content-Type": "application/json",
     },
     body: JSON.stringify( body ),
@@ -111,17 +133,23 @@ export async function publishPost( article, imageId, keyword ) {
     throw new Error(`Post publish failed (HTTP ${res.status}): ${text.slice(0, 300)}`);
   }
 
-  const data = await res.json();
-  const url  = data.link || data.guid?.rendered || "";
-  log(`  Published: ${url} (post ID: ${data.id}, category: ${categoryId})`);
-  return { postId: data.id, url };
+  const data    = await res.json();
+  const postId  = data.id;
+  const postUrl = data.link || data.guid?.rendered || "";
+
+  log(`  Published: ${postUrl} (post ID: ${postId}, category: ${categoryId})`);
+
+  // ── Write Yoast SEO meta ───────────────────────────────────────────────
+  await writeYoastMeta( postId, keyword, article.meta_description || article.excerpt || "", article.seo_title || "" );
+
+  return { postId, postUrl, mediaId, mediaUrl };
 }
 
-// ── Write Yoast SEO fields via post meta ───────────────────────────────────
-export async function writeYoastMeta( postId, focusKeyphrase, metaDescription ) {
+// ── Write Yoast SEO fields ─────────────────────────────────────────────────
+async function writeYoastMeta( postId, focusKeyphrase, metaDescription, seoTitle ) {
   log("  Writing Yoast SEO fields...");
   log(`    Focus keyphrase : "${focusKeyphrase}"`);
-  log(`    Meta description: "${metaDescription.slice(0, 80)}..."`);
+  log(`    Meta description: "${String(metaDescription).slice(0, 80)}..."`);
 
   const res = await fetch(`${WP_URL}/wp-json/wp/v2/posts/${postId}`, {
     method:  "POST",
@@ -131,9 +159,9 @@ export async function writeYoastMeta( postId, focusKeyphrase, metaDescription ) 
     },
     body: JSON.stringify({
       meta: {
-        _yoast_wpseo_focuskw:    focusKeyphrase,
-        _yoast_wpseo_metadesc:   metaDescription,
-        _yoast_wpseo_title:      article?.seo_title || "",
+        _yoast_wpseo_focuskw:  focusKeyphrase,
+        _yoast_wpseo_metadesc: metaDescription,
+        _yoast_wpseo_title:    seoTitle,
       },
     }),
   });
@@ -144,7 +172,7 @@ export async function writeYoastMeta( postId, focusKeyphrase, metaDescription ) 
     return false;
   }
 
-  const data = await res.json();
+  const data          = await res.json();
   const confirmedKw   = data.meta?._yoast_wpseo_focuskw  || "";
   const confirmedDesc = data.meta?._yoast_wpseo_metadesc || "";
   log(`  Yoast fields confirmed — keyphrase: "${confirmedKw}", desc: ${confirmedDesc.length} chars`);
