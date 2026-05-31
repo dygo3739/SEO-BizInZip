@@ -114,10 +114,10 @@
     },
     {
       "topic": "how to export business leads to CSV",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-05-31T10:51:16.184Z"
     },
     {
       "topic": "pay per lead vs subscription lead generation tools",
@@ -289,6 +289,133 @@
     }
   ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-05-31T10:51:16.184Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-05-31T10:51:16.187Z"
+        },
+        {
+          "msg": "Topic: \"how to export business leads to CSV\" (used 0x before)",
+          "type": "info",
+          "time": "2026-05-31T10:51:16.189Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-05-31T10:51:16.189Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-05-31T10:51:16.189Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-05-31T10:51:16.620Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-05-31T10:51:16.620Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-05-31T10:51:16.620Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-05-31T10:51:16.622Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-05-31T10:51:17.369Z"
+        },
+        {
+          "msg": "Found 289 published posts",
+          "type": "info",
+          "time": "2026-05-31T10:51:17.414Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-05-31T10:51:17.415Z"
+        },
+        {
+          "msg": "  Posts (3): \"How To Find Local Business Leads 7 Proven Strategies That Actually Work\", \"Best Ways To Get Business Leads Without A Subscription 12 Free Strategies That Actually Work\", \"Insurance Agency Leads In Miami Fl\"",
+          "type": "info",
+          "time": "2026-05-31T10:51:17.416Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Csv Export\", \"Glossary/Google Business Profile\", \"Glossary\"",
+          "type": "info",
+          "time": "2026-05-31T10:51:17.416Z"
+        },
+        {
+          "msg": "Writing article for \"how to export business leads to CSV\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-05-31T10:51:17.416Z"
+        },
+        {
+          "msg": "Article ready: \"How to Export Business Leads to CSV: Complete Guide for Sales Teams\"",
+          "type": "info",
+          "time": "2026-05-31T10:52:14.603Z"
+        },
+        {
+          "msg": "Excerpt length: 160 chars",
+          "type": "info",
+          "time": "2026-05-31T10:52:14.603Z"
+        },
+        {
+          "msg": "Unsplash query: \"spreadsheet data export\"",
+          "type": "info",
+          "time": "2026-05-31T10:52:14.603Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-05-31T10:52:14.603Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"spreadsheet data export\"...",
+          "type": "info",
+          "time": "2026-05-31T10:52:14.603Z"
+        },
+        {
+          "msg": "Image: \"icon\" by Rubaitul Azad",
+          "type": "info",
+          "time": "2026-05-31T10:52:15.199Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-05-31T10:52:21.097Z"
+        }
+      ],
+      "topic": "how to export business leads to CSV",
+      "tierId": 2,
+      "keyword": "how to export business leads to CSV",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "How to Export Business Leads to CSV: Complete Guide for Sales Teams",
+      "imageUrl": "https://images.unsplash.com/photo-1658203897339-0b8c64a42fba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwxfHxzcHJlYWRzaGVldCUyMGRhdGElMjBleHBvcnR8ZW58MXwwfHx8MTc4MDIyNDczNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Rubaitul Azad",
+      "postId": 1558,
+      "postUrl": "https://bizinzip.com/how-to-export-business-leads-to-csv-complete-guide-for-sales-teams/",
+      "mediaId": 1557,
+      "mediaUrl": "https://bizinzip.com/wp-content/uploads/2026/05/bizinzip-hero-1780224735307.jpg",
+      "finishedAt": "2026-05-31T10:52:21.097Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-05-31T10:45:19.705Z",
