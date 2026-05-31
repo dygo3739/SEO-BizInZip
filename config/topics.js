@@ -18,7 +18,7 @@ export const PILLAR_PAGES = {
   cities:     "https://bizinzip.com/cities",
   industries: "https://bizinzip.com/industries",
   howItWorks: "https://bizinzip.com/how-it-works",
-  pricing:    "https://bizinzip.com/#pricing",
+  pricing:    "https://bizinzip.com/pricing",
   widget:     "https://bizinzip.com/#search",
 };
 
