@@ -72,10 +72,10 @@
     },
     {
       "topic": "plumber leads by zip code",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-05-31T07:33:26.595Z"
     },
     {
       "topic": "auto repair shop leads for sales reps",
@@ -254,6 +254,125 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-05-31T07:33:26.595Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-05-31T07:33:26.598Z"
+        },
+        {
+          "msg": "Topic: \"plumber leads by zip code\" (used 0x before)",
+          "type": "info",
+          "time": "2026-05-31T07:33:26.599Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-05-31T07:33:26.600Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-05-31T07:33:26.600Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-05-31T07:33:27.071Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-05-31T07:33:27.071Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-05-31T07:33:27.071Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-05-31T07:33:27.073Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-05-31T07:33:27.590Z"
+        },
+        {
+          "msg": "Found 287 published posts",
+          "type": "info",
+          "time": "2026-05-31T07:33:27.671Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-05-31T07:33:27.673Z"
+        },
+        {
+          "msg": "  Posts (3): \"Plumber Leads In Los Angeles Ca\", \"Plumber Leads In Chicago Il\", \"Plumber Leads In Houston Tx\"",
+          "type": "info",
+          "time": "2026-05-31T07:33:27.673Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Zip Code Prospecting\", \"Glossary\", \"Glossary/Lead Generation\"",
+          "type": "info",
+          "time": "2026-05-31T07:33:27.673Z"
+        },
+        {
+          "msg": "Writing article for \"plumber leads by zip code\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-05-31T07:33:27.673Z"
+        },
+        {
+          "msg": "Article ready: \"Plumber Leads by Zip Code: Target Local Customers Where They Live\"",
+          "type": "info",
+          "time": "2026-05-31T07:34:16.438Z"
+        },
+        {
+          "msg": "Excerpt length: 156 chars",
+          "type": "info",
+          "time": "2026-05-31T07:34:16.438Z"
+        },
+        {
+          "msg": "Unsplash query: \"plumber tools local business\"",
+          "type": "info",
+          "time": "2026-05-31T07:34:16.438Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-05-31T07:34:16.438Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"plumber tools local business\"...",
+          "type": "info",
+          "time": "2026-05-31T07:34:16.438Z"
+        },
+        {
+          "msg": "Image: \"man in black and white plaid dress shirt wearing black helmet\" by Memento Media",
+          "type": "info",
+          "time": "2026-05-31T07:34:16.825Z"
+        }
+      ],
+      "topic": "plumber leads by zip code",
+      "tierId": 2,
+      "keyword": "plumber leads by zip code",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "Plumber Leads by Zip Code: Target Local Customers Where They Live",
+      "imageUrl": "https://images.unsplash.com/photo-1613839397604-65fffe7fc3d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwyfHxwbHVtYmVyJTIwdG9vbHMlMjBsb2NhbCUyMGJ1c2luZXNzfGVufDF8MHx8fDE3ODAyMTI4NTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Memento Media",
+      "error": "keyword.toLowerCase is not a function",
+      "finishedAt": "2026-05-31T07:34:16.826Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-05-30T10:03:12.184Z",
