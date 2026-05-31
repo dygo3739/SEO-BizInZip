@@ -11,6 +11,26 @@ export const BUSINESS = {
   tone:     "practical, direct, and results-focused — like advice from an experienced sales professional, not a marketer",
   niche:    "finding local business contact info by zip code, B2B lead generation, and sales prospecting",
   usp:      "search free, pay $0.10 per contact — no subscription required",
+
+  // Full product description — used in article system prompt so Claude
+  // understands exactly what BizInZip does and can reference it accurately
+  description: `BizInZip is a pay-as-you-go local business lead finder. Here is exactly how it works:
+1. The user picks a business type from 4,000+ Google Places categories (e.g. "Insurance Agency", "Roofing Contractor", "Dentist")
+2. They enter one or more zip codes — or type a city name and BizInZip auto-populates every zip code in that area
+3. Results load instantly showing business name, address, rating, and review count — all free to browse
+4. The user checks only the specific businesses they want to contact
+5. They pay $0.10 per selected contact to unlock phone number, email address, and website
+6. Everything exports to CSV in one click — ready to import into any CRM
+
+Key facts writers must know:
+- BizInZip pulls live data from Google Places API — the same database as Google Maps
+- Email addresses are scraped live from each business website at the moment of purchase
+- NO subscription, NO monthly fee, NO minimum spend — pure pay-per-use
+- Search is always free — users only pay when they choose to unlock specific contacts
+- Built for LOCAL B2B prospecting — finding the actual business, not named individuals at corporations
+- Covers all 50 US states, 4,000+ business categories
+- The zip code search is the core differentiator — search an entire city worth of zips at once
+- Minimum charge is $0.50 (Stripe minimum), which covers up to 5 contacts`,
 };
 
 // ── Pillar page URLs — used for internal linking in articles ──────
@@ -18,7 +38,7 @@ export const PILLAR_PAGES = {
   cities:     "https://bizinzip.com/cities",
   industries: "https://bizinzip.com/industries",
   howItWorks: "https://bizinzip.com/how-it-works",
-  pricing:    "https://bizinzip.com/pricing",
+  pricing:    "https://bizinzip.com/#pricing",
   widget:     "https://bizinzip.com/#search",
 };
 
