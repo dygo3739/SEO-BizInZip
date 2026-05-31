@@ -63,7 +63,7 @@ export async function uploadImage( imageBuffer, filename, mimeType = "image/jpeg
 
   const data = await res.json();
   log(`  Image uploaded (ID: ${data.id})`);
-  return data.id;
+  return parseInt( data.id, 10 );
 }
 
 // ── Publish post to WordPress ──────────────────────────────────────────────
@@ -88,7 +88,7 @@ export async function publishPost( article, imageId, keyword ) {
     status,
     categories:     [ categoryId ],
     tags:           tagIds,             // ← resolved from keyword via tagMap
-    featured_media: imageId || 0,
+    featured_media: parseInt( imageId, 10 ) || 0,
   };
 
   const res = await fetch(`${WP_URL}/wp-json/wp/v2/posts`, {
