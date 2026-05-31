@@ -22,7 +22,7 @@ const log = msg => console.log(`[${new Date().toISOString()}] ${msg}`);
 // Checks keyword against each tagMap entry in order — first match wins.
 // Falls back to salesProspecting if nothing matches, or [] if IDs not set yet.
 function resolveTagId( keyword = "" ) {
-  const kw      = keyword.toLowerCase();
+  const kw      = String( keyword || "" ).toLowerCase();
   const { tags, tagMap } = PUBLISHING;
 
   // If tags haven't been configured yet, skip silently
@@ -67,7 +67,8 @@ export async function uploadImage( imageBuffer, filename, mimeType = "image/jpeg
 }
 
 // ── Publish post to WordPress ──────────────────────────────────────────────
-export async function publishPost( article, imageId, keyword = "" ) {
+export async function publishPost( article, imageId, keyword ) {
+  keyword = String( keyword || "" );
   const categoryId = PUBLISHING.categoryId || 1;
   const tagIds     = resolveTagId( keyword );
   const status     = PUBLISHING.postStatus || "publish";
