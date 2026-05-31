@@ -24,8 +24,33 @@ export const PILLAR_PAGES = {
 
 // ── Publishing settings ───────────────────────────────────────────
 export const PUBLISHING = {
-  // Find your category ID: WP Admin → Posts → Categories → hover category → check tag_ID in URL
-  categoryId: 10,  // ← update after checking WP admin
+  // Find your Blog category ID:
+  // WP Admin → Posts → Categories → hover "Blog" → URL shows tag_ID=X
+  categoryId: 10,  // ← Confirmed from pipeline logs (post published with category: 10)
+
+  // ── WordPress Tag IDs ─────────────────────────────────────────────
+  // To find tag IDs: WP Admin → Posts → Tags → hover any tag → check tag_ID in URL
+  // Each post gets ONE primary tag based on its topic type (set in tagMap below).
+  // Replace the placeholder IDs once you've created the tags in WordPress.
+  tags: {
+    howToGuides:       13,  // How-To Guides
+    industrySpotlight: 11,  // Industry Spotlights
+    toolComparisons:   14,  // Tool Comparisons
+    salesProspecting:  12,  // Sales Prospecting
+    zipCodeStrategy:   15,  // Zip Code Strategy
+  },
+
+  // ── Tag assignment rules ──────────────────────────────────────────
+  // Keywords matching these patterns get the corresponding tag.
+  // The pipeline checks each topic against these in order — first match wins.
+  tagMap: [
+    { tag: "toolComparisons",   patterns: ["vs ", "alternative", "comparison", "vs.", "better than", "instead of", "replace"] },
+    { tag: "industrySpotlight", patterns: ["insurance", "real estate", "dentist", "roofing", "hvac", "plumber", "contractor", "lawyer", "mortgage", "attorney", "agent", "broker"] },
+    { tag: "zipCodeStrategy",   patterns: ["zip code", "zip", "city", "territory", "geographic", "hyperlocal", "local area", "by area", "by location"] },
+    { tag: "howToGuides",       patterns: ["how to", "how do", "guide", "step", "tips for", "ways to", "best way"] },
+    { tag: "salesProspecting",  patterns: ["prospect", "cold", "outreach", "lead", "list", "contact", "find business", "sales"] },
+  ],
+
   postStatus: "publish",
 };
 
@@ -70,12 +95,17 @@ export const TOPICS = [
   "sales territory mapping by zip code",
   "how to prioritize leads by Google rating",
 
-  // Comparisons — high commercial intent
-  "ZoomInfo alternatives for small business",
-  "Apollo io vs local business prospecting tools",
-  "cheap lead generation tools for sales reps",
-  "best tools to find business phone numbers",
-  "Hunter io alternatives for local businesses",
+  // Comparisons — honest, accurate positioning
+  "ZoomInfo alternatives for local sales reps",
+  "why local businesses don't need ZoomInfo",
+  "D7 Lead Finder vs BizInZip",
+  "Outscraper alternatives for non-technical sales reps",
+  "best Google Maps scraping tools for sales",
+  "cheap alternatives to ZoomInfo for small business",
+  "PhantomBuster alternatives for local prospecting",
+  "how to find local business contacts without a data subscription",
+  "Google Maps lead generation tools compared",
+  "best tools to find local business phone numbers",
 
   // Local marketing
   "how to find insurance agencies in my area",
