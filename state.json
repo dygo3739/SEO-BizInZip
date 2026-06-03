@@ -128,10 +128,10 @@
     },
     {
       "topic": "how to build a sales territory prospect list",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-06-03T02:49:49.394Z"
     },
     {
       "topic": "local business data for sales teams",
@@ -289,6 +289,125 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-06-03T02:49:49.394Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-03T02:49:49.397Z"
+        },
+        {
+          "msg": "Topic: \"how to build a sales territory prospect list\" (used 0x before)",
+          "type": "info",
+          "time": "2026-06-03T02:49:49.399Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-06-03T02:49:49.399Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-06-03T02:49:49.399Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-03T02:49:49.815Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-03T02:49:49.815Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-03T02:49:49.815Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-03T02:49:49.817Z"
+        },
+        {
+          "msg": "Found 0 glossary terms",
+          "type": "info",
+          "time": "2026-06-03T02:49:50.134Z"
+        },
+        {
+          "msg": "Found 0 published posts",
+          "type": "info",
+          "time": "2026-06-03T02:49:50.158Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-03T02:49:50.158Z"
+        },
+        {
+          "msg": "  Posts (0): none",
+          "type": "info",
+          "time": "2026-06-03T02:49:50.158Z"
+        },
+        {
+          "msg": "  Terms (0): none",
+          "type": "info",
+          "time": "2026-06-03T02:49:50.158Z"
+        },
+        {
+          "msg": "Writing article for \"how to build a sales territory prospect list\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-03T02:49:50.159Z"
+        },
+        {
+          "msg": "Article ready: \"How to Build a Sales Territory Prospect List That Converts\"",
+          "type": "info",
+          "time": "2026-06-03T02:50:31.167Z"
+        },
+        {
+          "msg": "Excerpt length: 191 chars",
+          "type": "info",
+          "time": "2026-06-03T02:50:31.167Z"
+        },
+        {
+          "msg": "Unsplash query: \"sales territory map\"",
+          "type": "info",
+          "time": "2026-06-03T02:50:31.167Z"
+        },
+        {
+          "msg": "Post links: 0 | Term links: 0",
+          "type": "info",
+          "time": "2026-06-03T02:50:31.167Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"sales territory map\"...",
+          "type": "info",
+          "time": "2026-06-03T02:50:31.167Z"
+        },
+        {
+          "msg": "Image: \"United States map\" by Joey Csunyo",
+          "type": "info",
+          "time": "2026-06-03T02:50:31.418Z"
+        }
+      ],
+      "topic": "how to build a sales territory prospect list",
+      "tierId": 2,
+      "keyword": "how to build a sales territory prospect list",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 0,
+      "internalTermLinks": 0,
+      "title": "How to Build a Sales Territory Prospect List That Converts",
+      "imageUrl": "https://images.unsplash.com/photo-1515861209048-dae6a1e1ed56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHw0fHxzYWxlcyUyMHRlcnJpdG9yeSUyMG1hcHxlbnwxfDB8fHwxNzgwNDAyMTA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Joey Csunyo",
+      "error": "Unexpected token '<', \"<html><head><link re\"... is not valid JSON",
+      "finishedAt": "2026-06-03T02:50:41.566Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-06-01T13:40:43.956Z",
