@@ -135,10 +135,10 @@
     },
     {
       "topic": "local business data for sales teams",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-06-03T12:44:14.964Z"
     },
     {
       "topic": "cold outreach tips for local businesses",
@@ -289,6 +289,133 @@
     }
   ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-06-03T12:44:14.964Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-03T12:44:14.968Z"
+        },
+        {
+          "msg": "Topic: \"local business data for sales teams\" (used 0x before)",
+          "type": "info",
+          "time": "2026-06-03T12:44:14.970Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-06-03T12:44:14.970Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-06-03T12:44:14.970Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-03T12:44:15.494Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-03T12:44:15.494Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-03T12:44:15.494Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-03T12:44:15.496Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-06-03T12:44:16.169Z"
+        },
+        {
+          "msg": "Found 393 published posts",
+          "type": "info",
+          "time": "2026-06-03T12:44:16.246Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-03T12:44:16.248Z"
+        },
+        {
+          "msg": "  Posts (3): \"7 Local Business Prospecting Tips That Actually Work From A Sales Pro\", \"How To Organize Business Leads To Csv Format Complete Guide For Sales Teams\", \"How To Find Local Business Leads 7 Proven Strategies That Actually Work\"",
+          "type": "info",
+          "time": "2026-06-03T12:44:16.248Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Outbound Sales\", \"Glossary/Contact Data\", \"Glossary/B2b Sales\"",
+          "type": "info",
+          "time": "2026-06-03T12:44:16.248Z"
+        },
+        {
+          "msg": "Writing article for \"local business data for sales teams\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-03T12:44:16.248Z"
+        },
+        {
+          "msg": "Article ready: \"How Sales Teams Can Access and Use Local Business Data to Close More Deals\"",
+          "type": "info",
+          "time": "2026-06-03T12:45:27.306Z"
+        },
+        {
+          "msg": "Excerpt length: 166 chars",
+          "type": "info",
+          "time": "2026-06-03T12:45:27.306Z"
+        },
+        {
+          "msg": "Unsplash query: \"sales team meeting\"",
+          "type": "info",
+          "time": "2026-06-03T12:45:27.306Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-06-03T12:45:27.306Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"sales team meeting\"...",
+          "type": "info",
+          "time": "2026-06-03T12:45:27.306Z"
+        },
+        {
+          "msg": "Image: \"people sitting on chair in front of table while holding pens during daytime\" by Dylan Gillis",
+          "type": "info",
+          "time": "2026-06-03T12:45:27.935Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-06-03T12:45:33.722Z"
+        }
+      ],
+      "topic": "local business data for sales teams",
+      "tierId": 2,
+      "keyword": "local business data for sales teams",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "How Sales Teams Can Access and Use Local Business Data to Close More Deals",
+      "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwxfHxzYWxlcyUyMHRlYW0lMjBtZWV0aW5nfGVufDF8MHx8fDE3ODA0OTA3Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Dylan Gillis",
+      "postId": 1911,
+      "postUrl": "https://bizinzip.com/how-sales-teams-can-access-and-use-local-business-data-to-close-more-deals/",
+      "mediaId": 1910,
+      "mediaUrl": "https://bizinzip.com/wp-content/uploads/2026/06/bizinzip-hero-1780490727976.jpg",
+      "finishedAt": "2026-06-03T12:45:33.722Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-06-03T02:49:49.394Z",
