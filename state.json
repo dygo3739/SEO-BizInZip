@@ -149,10 +149,10 @@
     },
     {
       "topic": "how to cold call small businesses",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-06-05T11:31:17.429Z"
     },
     {
       "topic": "email prospecting for insurance agents",
@@ -289,6 +289,133 @@
     }
   ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-06-05T11:31:17.429Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-05T11:31:17.432Z"
+        },
+        {
+          "msg": "Topic: \"how to cold call small businesses\" (used 0x before)",
+          "type": "info",
+          "time": "2026-06-05T11:31:17.434Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-06-05T11:31:17.434Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-06-05T11:31:17.434Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-05T11:31:17.951Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-05T11:31:17.951Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-05T11:31:17.951Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-05T11:31:17.953Z"
+        },
+        {
+          "msg": "Found 394 published posts",
+          "type": "info",
+          "time": "2026-06-05T11:31:19.599Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-06-05T11:31:19.752Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-05T11:31:19.753Z"
+        },
+        {
+          "msg": "  Posts (3): \"How To Find Small Business Contact Information 7 Proven Methods That Work\", \"Car Wash\", \"New York Ny\"",
+          "type": "info",
+          "time": "2026-06-05T11:31:19.753Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary\", \"Glossary/Zip Code Prospecting\", \"Glossary/Lead Generation\"",
+          "type": "info",
+          "time": "2026-06-05T11:31:19.754Z"
+        },
+        {
+          "msg": "Writing article for \"how to cold call small businesses\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-05T11:31:19.754Z"
+        },
+        {
+          "msg": "Article ready: \"How to Cold Call Small Businesses: A Step-by-Step Guide to Getting Through\"",
+          "type": "info",
+          "time": "2026-06-05T11:32:12.431Z"
+        },
+        {
+          "msg": "Excerpt length: 143 chars",
+          "type": "info",
+          "time": "2026-06-05T11:32:12.431Z"
+        },
+        {
+          "msg": "Unsplash query: \"businessman phone call\"",
+          "type": "info",
+          "time": "2026-06-05T11:32:12.431Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-06-05T11:32:12.431Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"businessman phone call\"...",
+          "type": "info",
+          "time": "2026-06-05T11:32:12.431Z"
+        },
+        {
+          "msg": "Image: \"man using smartphone on chair\" by bruce mars",
+          "type": "info",
+          "time": "2026-06-05T11:32:12.978Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-06-05T11:32:18.541Z"
+        }
+      ],
+      "topic": "how to cold call small businesses",
+      "tierId": 2,
+      "keyword": "how to cold call small businesses",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "How to Cold Call Small Businesses: A Step-by-Step Guide to Getting Through",
+      "imageUrl": "https://images.unsplash.com/photo-1537511446984-935f663eb1f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwxfHxidXNpbmVzc21hbiUyMHBob25lJTIwY2FsbHxlbnwxfDB8fHwxNzgwNjU5MTMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "bruce mars",
+      "postId": 2034,
+      "postUrl": "https://bizinzip.com/how-to-cold-call-small-businesses-a-step-by-step-guide-to-getting-through/",
+      "mediaId": 2033,
+      "mediaUrl": "https://bizinzip.com/wp-content/uploads/2026/06/bizinzip-hero-1780659133034.jpg",
+      "finishedAt": "2026-06-05T11:32:18.541Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-06-04T11:18:45.966Z",
