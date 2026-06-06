@@ -156,10 +156,10 @@
     },
     {
       "topic": "email prospecting for insurance agents",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-06-06T10:07:46.812Z"
     },
     {
       "topic": "how to write a cold email to a local business",
@@ -289,6 +289,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-06-06T10:07:46.812Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-06T10:07:46.815Z"
+        },
+        {
+          "msg": "Topic: \"email prospecting for insurance agents\" (used 0x before)",
+          "type": "info",
+          "time": "2026-06-06T10:07:46.817Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-06-06T10:07:46.817Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-06-06T10:07:46.818Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-06T10:07:47.222Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-06T10:07:47.222Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-06T10:07:47.222Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-06T10:07:47.224Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-06-06T10:07:47.906Z"
+        },
+        {
+          "msg": "Found 395 published posts",
+          "type": "info",
+          "time": "2026-06-06T10:07:47.993Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-06T10:07:47.995Z"
+        },
+        {
+          "msg": "  Posts (3): \"How Insurance Agents Find New Clients 8 Proven Strategies That Work\", \"Insurance Agency\", \"Insurance Broker\"",
+          "type": "info",
+          "time": "2026-06-06T10:07:47.995Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Zip Code Prospecting\", \"Glossary/Cold Email\", \"Glossary/Business Email Finder\"",
+          "type": "info",
+          "time": "2026-06-06T10:07:47.995Z"
+        },
+        {
+          "msg": "Writing article for \"email prospecting for insurance agents\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-06T10:07:47.996Z"
+        }
+      ],
+      "topic": "email prospecting for insurance agents",
+      "tierId": 2,
+      "keyword": "email prospecting for insurance agents",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Failed to parse Claude response: Expected ',' or '}' after property value in JSON at position 1713\nRaw: ```json\n{\n  \"title\": \"Email Prospecting for Insurance Agents: 6 Steps to Fill Your Pipeline with Quality Leads\",\n  \"seo_title\": \"Email Prospecting for Insurance Agents: Build Your Pipeline Fast\",\n  \"content\": \"<p>Insurance agents who master email prospecting consistently outperform those who rely so",
+      "finishedAt": "2026-06-06T10:08:40.171Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-06-05T11:31:17.429Z",
