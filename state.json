@@ -163,10 +163,10 @@
     },
     {
       "topic": "how to write a cold email to a local business",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-06-07T10:31:19.766Z"
     },
     {
       "topic": "sales territory mapping by zip code",
@@ -289,6 +289,133 @@
     }
   ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-06-07T10:31:19.766Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-07T10:31:19.769Z"
+        },
+        {
+          "msg": "Topic: \"how to write a cold email to a local business\" (used 0x before)",
+          "type": "info",
+          "time": "2026-06-07T10:31:19.771Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-06-07T10:31:19.771Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-06-07T10:31:19.772Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-07T10:31:20.325Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-07T10:31:20.325Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-07T10:31:20.325Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-07T10:31:20.327Z"
+        },
+        {
+          "msg": "Found 395 published posts",
+          "type": "info",
+          "time": "2026-06-07T10:31:21.114Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-06-07T10:31:21.329Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-07T10:31:21.331Z"
+        },
+        {
+          "msg": "  Posts (3): \"How To Find Local Business Leads 7 Proven Strategies That Actually Work\", \"7 Local Business Prospecting Tips That Actually Work From A Sales Pro\", \"How Sales Teams Can Access And Use Local Business Data To Close More Deals\"",
+          "type": "info",
+          "time": "2026-06-07T10:31:21.331Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Cold Email\", \"Glossary/Business Email Finder\", \"Glossary/Google Business Profile\"",
+          "type": "info",
+          "time": "2026-06-07T10:31:21.331Z"
+        },
+        {
+          "msg": "Writing article for \"how to write a cold email to a local business\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-07T10:31:21.332Z"
+        },
+        {
+          "msg": "Article ready: \"How to Write a Cold Email to Local Businesses That Actually Gets Responses\"",
+          "type": "info",
+          "time": "2026-06-07T10:32:39.594Z"
+        },
+        {
+          "msg": "Excerpt length: 155 chars",
+          "type": "info",
+          "time": "2026-06-07T10:32:39.594Z"
+        },
+        {
+          "msg": "Unsplash query: \"business email laptop\"",
+          "type": "info",
+          "time": "2026-06-07T10:32:39.594Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-06-07T10:32:39.594Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"business email laptop\"...",
+          "type": "info",
+          "time": "2026-06-07T10:32:39.594Z"
+        },
+        {
+          "msg": "Image: \"person using MacBook Pro\" by Glenn Carstens-Peters",
+          "type": "info",
+          "time": "2026-06-07T10:32:40.552Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-06-07T10:32:45.829Z"
+        }
+      ],
+      "topic": "how to write a cold email to a local business",
+      "tierId": 2,
+      "keyword": "how to write a cold email to a local business",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "How to Write a Cold Email to Local Businesses That Actually Gets Responses",
+      "imageUrl": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGVtYWlsJTIwbGFwdG9wfGVufDF8MHx8fDE3ODA4MjgzNjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Glenn Carstens-Peters",
+      "postId": 2037,
+      "postUrl": "https://bizinzip.com/how-to-write-a-cold-email-to-local-businesses-that-actually-gets-responses/",
+      "mediaId": 2036,
+      "mediaUrl": "https://bizinzip.com/wp-content/uploads/2026/06/bizinzip-hero-1780828360725.jpg",
+      "finishedAt": "2026-06-07T10:32:45.829Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-06-06T10:07:46.812Z",
