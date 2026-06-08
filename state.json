@@ -170,10 +170,10 @@
     },
     {
       "topic": "sales territory mapping by zip code",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-06-08T12:36:51.256Z"
     },
     {
       "topic": "how to prioritize leads by Google rating",
@@ -289,6 +289,133 @@
     }
   ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-06-08T12:36:51.256Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-08T12:36:51.259Z"
+        },
+        {
+          "msg": "Topic: \"sales territory mapping by zip code\" (used 0x before)",
+          "type": "info",
+          "time": "2026-06-08T12:36:51.261Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-06-08T12:36:51.261Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-06-08T12:36:51.261Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-08T12:36:51.797Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-08T12:36:51.798Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-08T12:36:51.798Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-08T12:36:51.800Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-06-08T12:36:52.467Z"
+        },
+        {
+          "msg": "Found 396 published posts",
+          "type": "info",
+          "time": "2026-06-08T12:36:52.552Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-08T12:36:52.554Z"
+        },
+        {
+          "msg": "  Posts (3): \"How To Find Dentist Leads A Complete Guide For B2b Sales Success\", \"7 Local Business Prospecting Tips That Actually Work From A Sales Pro\", \"How To Find Quality Roofing Contractor Leads By Zip Code In 2024\"",
+          "type": "info",
+          "time": "2026-06-08T12:36:52.554Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Zip Code Prospecting\", \"Glossary/Territory Mapping\", \"Glossary/Outbound Sales\"",
+          "type": "info",
+          "time": "2026-06-08T12:36:52.554Z"
+        },
+        {
+          "msg": "Writing article for \"sales territory mapping by zip code\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-08T12:36:52.555Z"
+        },
+        {
+          "msg": "Article ready: \"Sales Territory Mapping by Zip Code: A Step-by-Step Guide for Field Reps\"",
+          "type": "info",
+          "time": "2026-06-08T12:37:56.652Z"
+        },
+        {
+          "msg": "Excerpt length: 158 chars",
+          "type": "info",
+          "time": "2026-06-08T12:37:56.652Z"
+        },
+        {
+          "msg": "Unsplash query: \"sales map territory\"",
+          "type": "info",
+          "time": "2026-06-08T12:37:56.652Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-06-08T12:37:56.652Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"sales map territory\"...",
+          "type": "info",
+          "time": "2026-06-08T12:37:56.652Z"
+        },
+        {
+          "msg": "Image: \"country map on brown wooden surface\" by Ioann-Mark Kuznietsov",
+          "type": "info",
+          "time": "2026-06-08T12:37:57.241Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-06-08T12:38:03.012Z"
+        }
+      ],
+      "topic": "sales territory mapping by zip code",
+      "tierId": 2,
+      "keyword": "sales territory mapping by zip code",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "Sales Territory Mapping by Zip Code: A Step-by-Step Guide for Field Reps",
+      "imageUrl": "https://images.unsplash.com/photo-1451988336904-b1a6e8846746?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHw0fHxzYWxlcyUyMG1hcCUyMHRlcnJpdG9yeXxlbnwxfDB8fHwxNzgwOTIyMjc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Ioann-Mark Kuznietsov",
+      "postId": 2040,
+      "postUrl": "https://bizinzip.com/sales-territory-mapping-by-zip-code-a-step-by-step-guide-for-field-reps/",
+      "mediaId": 2039,
+      "mediaUrl": "https://bizinzip.com/wp-content/uploads/2026/06/bizinzip-hero-1780922277456.jpg",
+      "finishedAt": "2026-06-08T12:38:03.012Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-06-07T10:31:19.766Z",
