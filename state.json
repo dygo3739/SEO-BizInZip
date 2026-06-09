@@ -177,10 +177,10 @@
     },
     {
       "topic": "how to prioritize leads by Google rating",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-06-09T11:19:47.056Z"
     },
     {
       "topic": "ZoomInfo alternatives for local sales reps",
@@ -289,6 +289,125 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-06-09T11:19:47.056Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-09T11:19:47.059Z"
+        },
+        {
+          "msg": "Topic: \"how to prioritize leads by Google rating\" (used 0x before)",
+          "type": "info",
+          "time": "2026-06-09T11:19:47.061Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-06-09T11:19:47.061Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-06-09T11:19:47.061Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-09T11:19:47.472Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-09T11:19:47.473Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-09T11:19:47.473Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-09T11:19:47.474Z"
+        },
+        {
+          "msg": "Found 0 published posts",
+          "type": "info",
+          "time": "2026-06-09T11:19:47.746Z"
+        },
+        {
+          "msg": "Found 0 glossary terms",
+          "type": "info",
+          "time": "2026-06-09T11:19:47.748Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-09T11:19:47.749Z"
+        },
+        {
+          "msg": "  Posts (0): none",
+          "type": "info",
+          "time": "2026-06-09T11:19:47.749Z"
+        },
+        {
+          "msg": "  Terms (0): none",
+          "type": "info",
+          "time": "2026-06-09T11:19:47.749Z"
+        },
+        {
+          "msg": "Writing article for \"how to prioritize leads by Google rating\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-09T11:19:47.749Z"
+        },
+        {
+          "msg": "Article ready: \"How to Prioritize Leads by Google Rating: A Data-Driven Sales Strategy\"",
+          "type": "info",
+          "time": "2026-06-09T11:20:34.282Z"
+        },
+        {
+          "msg": "Excerpt length: 166 chars",
+          "type": "info",
+          "time": "2026-06-09T11:20:34.282Z"
+        },
+        {
+          "msg": "Unsplash query: \"sales team strategy\"",
+          "type": "info",
+          "time": "2026-06-09T11:20:34.282Z"
+        },
+        {
+          "msg": "Post links: 0 | Term links: 0",
+          "type": "info",
+          "time": "2026-06-09T11:20:34.282Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"sales team strategy\"...",
+          "type": "info",
+          "time": "2026-06-09T11:20:34.283Z"
+        },
+        {
+          "msg": "Image: \"three men sitting while using laptops and watching man beside whiteboard\" by Austin Distel",
+          "type": "info",
+          "time": "2026-06-09T11:20:35.035Z"
+        }
+      ],
+      "topic": "how to prioritize leads by Google rating",
+      "tierId": 2,
+      "keyword": "how to prioritize leads by Google rating",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 0,
+      "internalTermLinks": 0,
+      "title": "How to Prioritize Leads by Google Rating: A Data-Driven Sales Strategy",
+      "imageUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwxfHxzYWxlcyUyMHRlYW0lMjBzdHJhdGVneXxlbnwxfDB8fHwxNzgxMDA0MDM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Austin Distel",
+      "error": "Unexpected token '<', \"<html><head><link re\"... is not valid JSON",
+      "finishedAt": "2026-06-09T11:20:44.985Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-06-08T12:36:51.256Z",
