@@ -184,10 +184,10 @@
     },
     {
       "topic": "ZoomInfo alternatives for local sales reps",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-06-10T11:41:00.758Z"
     },
     {
       "topic": "why local businesses don't need ZoomInfo",
@@ -289,6 +289,133 @@
     }
   ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-06-10T11:41:00.758Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-10T11:41:00.761Z"
+        },
+        {
+          "msg": "Topic: \"ZoomInfo alternatives for local sales reps\" (used 0x before)",
+          "type": "info",
+          "time": "2026-06-10T11:41:00.762Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-06-10T11:41:00.763Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-06-10T11:41:00.763Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-10T11:41:01.276Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-10T11:41:01.276Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-10T11:41:01.276Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-10T11:41:01.278Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-06-10T11:41:01.513Z"
+        },
+        {
+          "msg": "Found 397 published posts",
+          "type": "info",
+          "time": "2026-06-10T11:41:01.516Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-10T11:41:01.518Z"
+        },
+        {
+          "msg": "  Posts (3): \"How Sales Teams Can Access And Use Local Business Data To Close More Deals\", \"Sales Territory Mapping By Zip Code A Step By Step Guide For Field Reps\", \"7 Local Business Prospecting Tips That Actually Work From A Sales Pro\"",
+          "type": "info",
+          "time": "2026-06-10T11:41:01.519Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Outbound Sales\", \"Glossary/B2b Sales\", \"Glossary\"",
+          "type": "info",
+          "time": "2026-06-10T11:41:01.519Z"
+        },
+        {
+          "msg": "Writing article for \"ZoomInfo alternatives for local sales reps\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-10T11:41:01.519Z"
+        },
+        {
+          "msg": "Article ready: \"Why Local Sales Reps Are Ditching ZoomInfo (And What They Use Instead)\"",
+          "type": "info",
+          "time": "2026-06-10T11:41:59.065Z"
+        },
+        {
+          "msg": "Excerpt length: 149 chars",
+          "type": "info",
+          "time": "2026-06-10T11:41:59.065Z"
+        },
+        {
+          "msg": "Unsplash query: \"sales team meeting\"",
+          "type": "info",
+          "time": "2026-06-10T11:41:59.065Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-06-10T11:41:59.065Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"sales team meeting\"...",
+          "type": "info",
+          "time": "2026-06-10T11:41:59.065Z"
+        },
+        {
+          "msg": "Image: \"people sitting on chair in front of table while holding pens during daytime\" by Dylan Gillis",
+          "type": "info",
+          "time": "2026-06-10T11:42:00.164Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-06-10T11:42:08.222Z"
+        }
+      ],
+      "topic": "ZoomInfo alternatives for local sales reps",
+      "tierId": 2,
+      "keyword": "ZoomInfo alternatives for local sales reps",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "Why Local Sales Reps Are Ditching ZoomInfo (And What They Use Instead)",
+      "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwxfHxzYWxlcyUyMHRlYW0lMjBtZWV0aW5nfGVufDF8MHx8fDE3ODEwOTE3MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Dylan Gillis",
+      "postId": 2069,
+      "postUrl": "https://bizinzip.com/why-local-sales-reps-are-ditching-zoominfo-and-what-they-use-instead/",
+      "mediaId": 2068,
+      "mediaUrl": "https://bizinzip.com/wp-content/uploads/2026/06/bizinzip-hero-1781091720251.jpg",
+      "finishedAt": "2026-06-10T11:42:08.222Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-06-09T11:19:47.056Z",
