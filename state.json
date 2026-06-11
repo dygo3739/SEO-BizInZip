@@ -191,10 +191,10 @@
     },
     {
       "topic": "why local businesses don't need ZoomInfo",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-06-11T12:12:37.122Z"
     },
     {
       "topic": "D7 Lead Finder vs BizInZip",
@@ -289,6 +289,125 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-06-11T12:12:37.122Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-11T12:12:37.125Z"
+        },
+        {
+          "msg": "Topic: \"why local businesses don't need ZoomInfo\" (used 0x before)",
+          "type": "info",
+          "time": "2026-06-11T12:12:37.127Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-06-11T12:12:37.127Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-06-11T12:12:37.127Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-11T12:12:37.547Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-11T12:12:37.547Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-11T12:12:37.547Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-11T12:12:37.549Z"
+        },
+        {
+          "msg": "Found 0 published posts",
+          "type": "info",
+          "time": "2026-06-11T12:12:37.839Z"
+        },
+        {
+          "msg": "Found 0 glossary terms",
+          "type": "info",
+          "time": "2026-06-11T12:12:37.841Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-11T12:12:37.842Z"
+        },
+        {
+          "msg": "  Posts (0): none",
+          "type": "info",
+          "time": "2026-06-11T12:12:37.842Z"
+        },
+        {
+          "msg": "  Terms (0): none",
+          "type": "info",
+          "time": "2026-06-11T12:12:37.842Z"
+        },
+        {
+          "msg": "Writing article for \"why local businesses don't need ZoomInfo\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-11T12:12:37.842Z"
+        },
+        {
+          "msg": "Article ready: \"Why Local Businesses Don't Need ZoomInfo: A Better Way to Find Regional Contacts\"",
+          "type": "info",
+          "time": "2026-06-11T12:13:22.934Z"
+        },
+        {
+          "msg": "Excerpt length: 166 chars",
+          "type": "info",
+          "time": "2026-06-11T12:13:22.934Z"
+        },
+        {
+          "msg": "Unsplash query: \"local business meeting\"",
+          "type": "info",
+          "time": "2026-06-11T12:13:22.934Z"
+        },
+        {
+          "msg": "Post links: 0 | Term links: 0",
+          "type": "info",
+          "time": "2026-06-11T12:13:22.934Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"local business meeting\"...",
+          "type": "info",
+          "time": "2026-06-11T12:13:22.934Z"
+        },
+        {
+          "msg": "Image: \"person gesturing during meeting with laptop\" by Headway",
+          "type": "info",
+          "time": "2026-06-11T12:13:23.566Z"
+        }
+      ],
+      "topic": "why local businesses don't need ZoomInfo",
+      "tierId": 2,
+      "keyword": "why local businesses don't need ZoomInfo",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 0,
+      "internalTermLinks": 0,
+      "title": "Why Local Businesses Don't Need ZoomInfo: A Better Way to Find Regional Contacts",
+      "imageUrl": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwzfHxsb2NhbCUyMGJ1c2luZXNzJTIwbWVldGluZ3xlbnwxfDB8fHwxNzgxMTgwMDAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Headway",
+      "error": "Unexpected token '<', \"<html><head><link re\"... is not valid JSON",
+      "finishedAt": "2026-06-11T12:13:33.598Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-06-10T11:41:00.758Z",
