@@ -198,10 +198,10 @@
     },
     {
       "topic": "D7 Lead Finder vs BizInZip",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-06-12T11:46:06.944Z"
     },
     {
       "topic": "Outscraper alternatives for non-technical sales reps",
@@ -289,6 +289,133 @@
     }
   ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-06-12T11:46:06.944Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-12T11:46:06.947Z"
+        },
+        {
+          "msg": "Topic: \"D7 Lead Finder vs BizInZip\" (used 0x before)",
+          "type": "info",
+          "time": "2026-06-12T11:46:06.949Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-06-12T11:46:06.949Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-06-12T11:46:06.949Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-12T11:46:07.358Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-12T11:46:07.358Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-12T11:46:07.358Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-12T11:46:07.360Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-06-12T11:46:08.696Z"
+        },
+        {
+          "msg": "Found 398 published posts",
+          "type": "info",
+          "time": "2026-06-12T11:46:08.787Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-12T11:46:08.789Z"
+        },
+        {
+          "msg": "  Posts (3): \"Pay Per Lead Vs Subscription Lead Generation Which Pricing Model Works Best For Sales Teams\", \"Car Wash\", \"New York Ny\"",
+          "type": "info",
+          "time": "2026-06-12T11:46:08.789Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Pay Per Lead\", \"Glossary/Business Email Finder\", \"Glossary/Warm Lead\"",
+          "type": "info",
+          "time": "2026-06-12T11:46:08.789Z"
+        },
+        {
+          "msg": "Writing article for \"D7 Lead Finder vs BizInZip\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-12T11:46:08.789Z"
+        },
+        {
+          "msg": "Article ready: \"D7 Lead Finder vs BizInZip: Which Tool Gets You Better Local Business Contacts?\"",
+          "type": "info",
+          "time": "2026-06-12T11:47:20.462Z"
+        },
+        {
+          "msg": "Excerpt length: 154 chars",
+          "type": "info",
+          "time": "2026-06-12T11:47:20.462Z"
+        },
+        {
+          "msg": "Unsplash query: \"business comparison analysis\"",
+          "type": "info",
+          "time": "2026-06-12T11:47:20.462Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-06-12T11:47:20.462Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"business comparison analysis\"...",
+          "type": "info",
+          "time": "2026-06-12T11:47:20.463Z"
+        },
+        {
+          "msg": "Image: \"laptop computer on glass-top table\" by Carlos Muza",
+          "type": "info",
+          "time": "2026-06-12T11:47:21.293Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-06-12T11:47:28.229Z"
+        }
+      ],
+      "topic": "D7 Lead Finder vs BizInZip",
+      "tierId": 2,
+      "keyword": "D7 Lead Finder vs BizInZip",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "D7 Lead Finder vs BizInZip: Which Tool Gets You Better Local Business Contacts?",
+      "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGNvbXBhcmlzb24lMjBhbmFseXNpc3xlbnwxfDB8fHwxNzgxMjY0ODQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Carlos Muza",
+      "postId": 2362,
+      "postUrl": "https://bizinzip.com/d7-lead-finder-vs-bizinzip-which-tool-gets-you-better-local-business-contacts/",
+      "mediaId": 2361,
+      "mediaUrl": "https://bizinzip.com/wp-content/uploads/2026/06/bizinzip-hero-1781264841361.jpg",
+      "finishedAt": "2026-06-12T11:47:28.229Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-06-11T12:12:37.122Z",
