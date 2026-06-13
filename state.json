@@ -205,10 +205,10 @@
     },
     {
       "topic": "Outscraper alternatives for non-technical sales reps",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-06-13T10:32:30.879Z"
     },
     {
       "topic": "best Google Maps scraping tools for sales",
@@ -289,6 +289,125 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-06-13T10:32:30.879Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-13T10:32:30.882Z"
+        },
+        {
+          "msg": "Topic: \"Outscraper alternatives for non-technical sales reps\" (used 0x before)",
+          "type": "info",
+          "time": "2026-06-13T10:32:30.884Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-06-13T10:32:30.884Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-06-13T10:32:30.885Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-13T10:32:31.293Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-13T10:32:31.294Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-13T10:32:31.294Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-13T10:32:31.296Z"
+        },
+        {
+          "msg": "Found 0 glossary terms",
+          "type": "info",
+          "time": "2026-06-13T10:32:31.599Z"
+        },
+        {
+          "msg": "Found 0 published posts",
+          "type": "info",
+          "time": "2026-06-13T10:32:31.603Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-13T10:32:31.603Z"
+        },
+        {
+          "msg": "  Posts (0): none",
+          "type": "info",
+          "time": "2026-06-13T10:32:31.603Z"
+        },
+        {
+          "msg": "  Terms (0): none",
+          "type": "info",
+          "time": "2026-06-13T10:32:31.603Z"
+        },
+        {
+          "msg": "Writing article for \"Outscraper alternatives for non-technical sales reps\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-13T10:32:31.603Z"
+        },
+        {
+          "msg": "Article ready: \"7 User-Friendly Outscraper Alternatives That Sales Reps Can Actually Use\"",
+          "type": "info",
+          "time": "2026-06-13T10:33:27.588Z"
+        },
+        {
+          "msg": "Excerpt length: 140 chars",
+          "type": "info",
+          "time": "2026-06-13T10:33:27.588Z"
+        },
+        {
+          "msg": "Unsplash query: \"sales team office\"",
+          "type": "info",
+          "time": "2026-06-13T10:33:27.588Z"
+        },
+        {
+          "msg": "Post links: 0 | Term links: 0",
+          "type": "info",
+          "time": "2026-06-13T10:33:27.588Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"sales team office\"...",
+          "type": "info",
+          "time": "2026-06-13T10:33:27.588Z"
+        },
+        {
+          "msg": "Image: \"man sitting in front of table\" by Arlington Research",
+          "type": "info",
+          "time": "2026-06-13T10:33:28.042Z"
+        }
+      ],
+      "topic": "Outscraper alternatives for non-technical sales reps",
+      "tierId": 2,
+      "keyword": "Outscraper alternatives for non-technical sales reps",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 0,
+      "internalTermLinks": 0,
+      "title": "7 User-Friendly Outscraper Alternatives That Sales Reps Can Actually Use",
+      "imageUrl": "https://images.unsplash.com/photo-1560264418-c4445382edbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwxfHxzYWxlcyUyMHRlYW0lMjBvZmZpY2V8ZW58MXwwfHx8MTc4MTM0NjgwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Arlington Research",
+      "error": "Unexpected token '<', \"<html><head><link re\"... is not valid JSON",
+      "finishedAt": "2026-06-13T10:33:38.177Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-06-12T11:46:06.944Z",
