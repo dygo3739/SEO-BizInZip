@@ -212,10 +212,10 @@
     },
     {
       "topic": "best Google Maps scraping tools for sales",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-06-14T10:50:31.256Z"
     },
     {
       "topic": "cheap alternatives to ZoomInfo for small business",
@@ -289,6 +289,133 @@
     }
   ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-06-14T10:50:31.256Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-14T10:50:31.259Z"
+        },
+        {
+          "msg": "Topic: \"best Google Maps scraping tools for sales\" (used 0x before)",
+          "type": "info",
+          "time": "2026-06-14T10:50:31.262Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-06-14T10:50:31.262Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-06-14T10:50:31.262Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-14T10:50:31.830Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-14T10:50:31.830Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-14T10:50:31.830Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-14T10:50:31.832Z"
+        },
+        {
+          "msg": "Found 663 published posts",
+          "type": "info",
+          "time": "2026-06-14T10:50:32.035Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-06-14T10:50:32.395Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-14T10:50:32.397Z"
+        },
+        {
+          "msg": "  Posts (3): \"Pay Per Lead Vs Subscription Lead Generation Which Pricing Model Works Best For Sales Teams\", \"How To Find Dentist Leads A Complete Guide For B2b Sales Success\", \"How To Organize Business Leads To Csv Format Complete Guide For Sales Teams\"",
+          "type": "info",
+          "time": "2026-06-14T10:50:32.397Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Outbound Sales\", \"Glossary/B2b Sales\", \"Glossary/Email Scraping\"",
+          "type": "info",
+          "time": "2026-06-14T10:50:32.397Z"
+        },
+        {
+          "msg": "Writing article for \"best Google Maps scraping tools for sales\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-14T10:50:32.397Z"
+        },
+        {
+          "msg": "Article ready: \"7 Best Google Maps Scraping Tools for Sales Teams (2024 Comparison)\"",
+          "type": "info",
+          "time": "2026-06-14T10:51:27.510Z"
+        },
+        {
+          "msg": "Excerpt length: 145 chars",
+          "type": "info",
+          "time": "2026-06-14T10:51:27.510Z"
+        },
+        {
+          "msg": "Unsplash query: \"sales team laptop\"",
+          "type": "info",
+          "time": "2026-06-14T10:51:27.510Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-06-14T10:51:27.510Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"sales team laptop\"...",
+          "type": "info",
+          "time": "2026-06-14T10:51:27.510Z"
+        },
+        {
+          "msg": "Image: \"three people sitting in front of table laughing together\" by Brooke Cagle",
+          "type": "info",
+          "time": "2026-06-14T10:51:28.308Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-06-14T10:51:34.579Z"
+        }
+      ],
+      "topic": "best Google Maps scraping tools for sales",
+      "tierId": 2,
+      "keyword": "best Google Maps scraping tools for sales",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "7 Best Google Maps Scraping Tools for Sales Teams (2024 Comparison)",
+      "imageUrl": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwzfHxzYWxlcyUyMHRlYW0lMjBsYXB0b3B8ZW58MXwwfHx8MTc4MTQzNDI4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Brooke Cagle",
+      "postId": 2926,
+      "postUrl": "https://bizinzip.com/7-best-google-maps-scraping-tools-for-sales-teams-2024-comparison/",
+      "mediaId": 2925,
+      "mediaUrl": "https://bizinzip.com/wp-content/uploads/2026/06/bizinzip-hero-1781434288498.jpg",
+      "finishedAt": "2026-06-14T10:51:34.579Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-06-13T10:32:30.879Z",
