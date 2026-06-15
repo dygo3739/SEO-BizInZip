@@ -219,10 +219,10 @@
     },
     {
       "topic": "cheap alternatives to ZoomInfo for small business",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-06-15T14:26:26.841Z"
     },
     {
       "topic": "PhantomBuster alternatives for local prospecting",
@@ -289,6 +289,133 @@
     }
   ],
   "runs": [
+    {
+      "status": "success",
+      "startedAt": "2026-06-15T14:26:26.841Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-15T14:26:26.844Z"
+        },
+        {
+          "msg": "Topic: \"cheap alternatives to ZoomInfo for small business\" (used 0x before)",
+          "type": "info",
+          "time": "2026-06-15T14:26:26.846Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-06-15T14:26:26.846Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-06-15T14:26:26.846Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-15T14:26:27.430Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-15T14:26:27.431Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-15T14:26:27.431Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-15T14:26:27.433Z"
+        },
+        {
+          "msg": "Found 664 published posts",
+          "type": "info",
+          "time": "2026-06-15T14:26:30.453Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-06-15T14:26:31.233Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-15T14:26:31.235Z"
+        },
+        {
+          "msg": "  Posts (3): \"How To Find Small Business Contact Information 7 Proven Methods That Work\", \"How To Organize Business Leads To Csv Format Complete Guide For Sales Teams\", \"How To Find Local Business Leads 7 Proven Strategies That Actually Work\"",
+          "type": "info",
+          "time": "2026-06-15T14:26:31.235Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Google Business Profile\", \"Glossary\", \"Glossary/Zip Code Prospecting\"",
+          "type": "info",
+          "time": "2026-06-15T14:26:31.235Z"
+        },
+        {
+          "msg": "Writing article for \"cheap alternatives to ZoomInfo for small business\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-15T14:26:31.236Z"
+        },
+        {
+          "msg": "Article ready: \"8 Cheap Alternatives to ZoomInfo That Small Businesses Actually Use in 2024\"",
+          "type": "info",
+          "time": "2026-06-15T14:27:26.213Z"
+        },
+        {
+          "msg": "Excerpt length: 188 chars",
+          "type": "info",
+          "time": "2026-06-15T14:27:26.213Z"
+        },
+        {
+          "msg": "Unsplash query: \"small business team meeting\"",
+          "type": "info",
+          "time": "2026-06-15T14:27:26.213Z"
+        },
+        {
+          "msg": "Post links: 3 | Term links: 3",
+          "type": "info",
+          "time": "2026-06-15T14:27:26.213Z"
+        },
+        {
+          "msg": "Fetching Unsplash image for: \"small business team meeting\"...",
+          "type": "info",
+          "time": "2026-06-15T14:27:26.213Z"
+        },
+        {
+          "msg": "Image: \"people sitting on chair in front of table while holding pens during daytime\" by Dylan Gillis",
+          "type": "info",
+          "time": "2026-06-15T14:27:26.888Z"
+        },
+        {
+          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
+          "type": "warn",
+          "time": "2026-06-15T14:27:32.039Z"
+        }
+      ],
+      "topic": "cheap alternatives to ZoomInfo for small business",
+      "tierId": 2,
+      "keyword": "cheap alternatives to ZoomInfo for small business",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "title": "8 Cheap Alternatives to ZoomInfo That Small Businesses Actually Use in 2024",
+      "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwxfHxzbWFsbCUyMGJ1c2luZXNzJTIwdGVhbSUyMG1lZXRpbmd8ZW58MXwwfHx8MTc4MTUzMzY0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageCredit": "Dylan Gillis",
+      "postId": 3080,
+      "postUrl": "https://bizinzip.com/8-cheap-alternatives-to-zoominfo-that-small-businesses-actually-use-in-2024/",
+      "mediaId": 3079,
+      "mediaUrl": "https://bizinzip.com/wp-content/uploads/2026/06/bizinzip-hero-1781533646906.jpg",
+      "finishedAt": "2026-06-15T14:27:32.039Z"
+    },
     {
       "status": "success",
       "startedAt": "2026-06-14T10:50:31.256Z",
