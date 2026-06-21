@@ -261,10 +261,10 @@
     },
     {
       "topic": "how to prospect real estate agents by city",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-06-21T11:18:32.724Z"
     },
     {
       "topic": "finding local contractors for outreach",
@@ -289,6 +289,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-06-21T11:18:32.724Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-21T11:18:32.727Z"
+        },
+        {
+          "msg": "Topic: \"how to prospect real estate agents by city\" (used 0x before)",
+          "type": "info",
+          "time": "2026-06-21T11:18:32.730Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-06-21T11:18:32.730Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-06-21T11:18:32.730Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-21T11:18:33.284Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-21T11:18:33.284Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-21T11:18:33.284Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-21T11:18:33.286Z"
+        },
+        {
+          "msg": "Found 665 published posts",
+          "type": "info",
+          "time": "2026-06-21T11:18:34.478Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-06-21T11:18:34.585Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-21T11:18:34.587Z"
+        },
+        {
+          "msg": "  Posts (3): \"Real Estate Agencies Kansas City Mo\", \"Real Estate Agency Austin Tx\", \"Real Estate Agency Las Vegas Nv\"",
+          "type": "info",
+          "time": "2026-06-21T11:18:34.587Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary\", \"Glossary/Zip Code Prospecting\", \"Glossary/Lead Generation\"",
+          "type": "info",
+          "time": "2026-06-21T11:18:34.587Z"
+        },
+        {
+          "msg": "Writing article for \"how to prospect real estate agents by city\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-21T11:18:34.588Z"
+        }
+      ],
+      "topic": "how to prospect real estate agents by city",
+      "tierId": 2,
+      "keyword": "how to prospect real estate agents by city",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CcGK7yme5e3B7H8ntg25a\"}",
+      "finishedAt": "2026-06-21T11:18:34.767Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-06-20T10:35:14.308Z",
