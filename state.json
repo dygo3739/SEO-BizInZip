@@ -275,10 +275,10 @@
     },
     {
       "topic": "how to target local businesses by industry",
-      "uses": 0,
+      "uses": 1,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": null
+      "lastRun": "2026-06-23T11:20:41.001Z"
     },
     {
       "topic": "hyperlocal marketing for B2B sales",
@@ -289,6 +289,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-06-23T11:20:41.001Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-23T11:20:41.004Z"
+        },
+        {
+          "msg": "Topic: \"how to target local businesses by industry\" (used 0x before)",
+          "type": "info",
+          "time": "2026-06-23T11:20:41.006Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-06-23T11:20:41.006Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-06-23T11:20:41.006Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-23T11:20:41.605Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-23T11:20:41.605Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-23T11:20:41.605Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-23T11:20:41.607Z"
+        },
+        {
+          "msg": "Found 0 published posts",
+          "type": "info",
+          "time": "2026-06-23T11:20:41.883Z"
+        },
+        {
+          "msg": "Found 0 glossary terms",
+          "type": "info",
+          "time": "2026-06-23T11:20:41.884Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-23T11:20:41.885Z"
+        },
+        {
+          "msg": "  Posts (0): none",
+          "type": "info",
+          "time": "2026-06-23T11:20:41.885Z"
+        },
+        {
+          "msg": "  Terms (0): none",
+          "type": "info",
+          "time": "2026-06-23T11:20:41.885Z"
+        },
+        {
+          "msg": "Writing article for \"how to target local businesses by industry\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-23T11:20:41.885Z"
+        }
+      ],
+      "topic": "how to target local businesses by industry",
+      "tierId": 2,
+      "keyword": "how to target local businesses by industry",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 0,
+      "internalTermLinks": 0,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CcL6uCJxgxaPMDwRJd1ep\"}",
+      "finishedAt": "2026-06-23T11:20:42.140Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-06-22T13:37:47.639Z",
