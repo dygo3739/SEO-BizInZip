@@ -16,10 +16,10 @@
     },
     {
       "topic": "local business prospecting tips",
-      "uses": 1,
+      "uses": 2,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-05-21T11:30:08.079Z"
+      "lastRun": "2026-06-27T10:12:11.139Z"
     },
     {
       "topic": "how to find small business contact information",
@@ -289,6 +289,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-06-27T10:12:11.139Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-27T10:12:11.143Z"
+        },
+        {
+          "msg": "Topic: \"local business prospecting tips\" (used 1x before)",
+          "type": "info",
+          "time": "2026-06-27T10:12:11.145Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-06-27T10:12:11.145Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-06-27T10:12:11.145Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-27T10:12:11.721Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-27T10:12:11.721Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-27T10:12:11.721Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-27T10:12:11.723Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-06-27T10:12:11.800Z"
+        },
+        {
+          "msg": "Found 666 published posts",
+          "type": "info",
+          "time": "2026-06-27T10:12:11.804Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-27T10:12:11.806Z"
+        },
+        {
+          "msg": "  Posts (3): \"7 Local Business Prospecting Tips That Actually Work From A Sales Pro\", \"How To Find Local Business Leads 7 Proven Strategies That Actually Work\", \"D7 Lead Finder Vs Bizinzip Which Tool Gets You Better Local Business Contacts\"",
+          "type": "info",
+          "time": "2026-06-27T10:12:11.806Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Zip Code Prospecting\", \"Glossary/Google Business Profile\", \"Glossary/Niche Prospecting\"",
+          "type": "info",
+          "time": "2026-06-27T10:12:11.806Z"
+        },
+        {
+          "msg": "Writing article for \"local business prospecting tips\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-27T10:12:11.806Z"
+        }
+      ],
+      "topic": "local business prospecting tips",
+      "tierId": 2,
+      "keyword": "local business prospecting tips",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CcTautMXQHwvwPDrQadQV\"}",
+      "finishedAt": "2026-06-27T10:12:11.988Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-06-26T10:54:16.996Z",
