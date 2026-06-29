@@ -30,10 +30,10 @@
     },
     {
       "topic": "best ways to get business leads without a subscription",
-      "uses": 1,
+      "uses": 2,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-05-23T09:56:56.376Z"
+      "lastRun": "2026-06-29T12:37:37.545Z"
     },
     {
       "topic": "how insurance agents find new clients",
@@ -289,6 +289,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-06-29T12:37:37.545Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-06-29T12:37:37.548Z"
+        },
+        {
+          "msg": "Topic: \"best ways to get business leads without a subscription\" (used 1x before)",
+          "type": "info",
+          "time": "2026-06-29T12:37:37.550Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-06-29T12:37:37.550Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-06-29T12:37:37.551Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-06-29T12:37:37.946Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-06-29T12:37:37.946Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-06-29T12:37:37.946Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-06-29T12:37:37.948Z"
+        },
+        {
+          "msg": "Found 0 published posts",
+          "type": "info",
+          "time": "2026-06-29T12:37:38.247Z"
+        },
+        {
+          "msg": "Found 0 glossary terms",
+          "type": "info",
+          "time": "2026-06-29T12:37:38.249Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-06-29T12:37:38.249Z"
+        },
+        {
+          "msg": "  Posts (0): none",
+          "type": "info",
+          "time": "2026-06-29T12:37:38.249Z"
+        },
+        {
+          "msg": "  Terms (0): none",
+          "type": "info",
+          "time": "2026-06-29T12:37:38.249Z"
+        },
+        {
+          "msg": "Writing article for \"best ways to get business leads without a subscription\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-06-29T12:37:38.250Z"
+        }
+      ],
+      "topic": "best ways to get business leads without a subscription",
+      "tierId": 2,
+      "keyword": "best ways to get business leads without a subscription",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 0,
+      "internalTermLinks": 0,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CcXZcymt648zjSkGTt1YF\"}",
+      "finishedAt": "2026-06-29T12:37:38.436Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-06-28T10:29:52.190Z",
