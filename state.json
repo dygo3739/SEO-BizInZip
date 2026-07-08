@@ -93,10 +93,10 @@
     },
     {
       "topic": "how to find mortgage broker leads",
-      "uses": 1,
+      "uses": 2,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-05-31T10:14:17.884Z"
+      "lastRun": "2026-07-08T10:21:28.751Z"
     },
     {
       "topic": "how to use Google Maps for lead generation",
@@ -289,6 +289,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-07-08T10:21:28.751Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-07-08T10:21:28.754Z"
+        },
+        {
+          "msg": "Topic: \"how to find mortgage broker leads\" (used 1x before)",
+          "type": "info",
+          "time": "2026-07-08T10:21:28.756Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-07-08T10:21:28.757Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-07-08T10:21:28.757Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-07-08T10:21:29.168Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-07-08T10:21:29.168Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-07-08T10:21:29.168Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-07-08T10:21:29.170Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-07-08T10:21:29.525Z"
+        },
+        {
+          "msg": "Found 666 published posts",
+          "type": "info",
+          "time": "2026-07-08T10:21:29.529Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-07-08T10:21:29.532Z"
+        },
+        {
+          "msg": "  Posts (3): \"How To Find Local Business Leads 7 Proven Strategies That Actually Work\", \"How To Find Dentist Leads A Complete Guide For B2b Sales Success\", \"How To Find Quality Roofing Contractor Leads By Zip Code In 2024\"",
+          "type": "info",
+          "time": "2026-07-08T10:21:29.532Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary\", \"Glossary/Zip Code Prospecting\", \"Glossary/Lead Generation\"",
+          "type": "info",
+          "time": "2026-07-08T10:21:29.532Z"
+        },
+        {
+          "msg": "Writing article for \"how to find mortgage broker leads\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-07-08T10:21:29.532Z"
+        }
+      ],
+      "topic": "how to find mortgage broker leads",
+      "tierId": 2,
+      "keyword": "how to find mortgage broker leads",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CcpRX4weoVDzAirEXd5fS\"}",
+      "finishedAt": "2026-07-08T10:21:29.722Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-07-07T11:10:44.284Z",
