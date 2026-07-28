@@ -233,10 +233,10 @@
     },
     {
       "topic": "how to find local business contacts without a data subscription",
-      "uses": 1,
+      "uses": 2,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-06-17T12:19:21.634Z"
+      "lastRun": "2026-07-28T10:38:20.478Z"
     },
     {
       "topic": "Google Maps lead generation tools compared",
@@ -289,6 +289,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-07-28T10:38:20.478Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-07-28T10:38:20.481Z"
+        },
+        {
+          "msg": "Topic: \"how to find local business contacts without a data subscription\" (used 1x before)",
+          "type": "info",
+          "time": "2026-07-28T10:38:20.484Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-07-28T10:38:20.484Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-07-28T10:38:20.484Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-07-28T10:38:20.969Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-07-28T10:38:20.969Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-07-28T10:38:20.969Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-07-28T10:38:20.971Z"
+        },
+        {
+          "msg": "Found 0 glossary terms",
+          "type": "info",
+          "time": "2026-07-28T10:38:21.287Z"
+        },
+        {
+          "msg": "Found 0 published posts",
+          "type": "info",
+          "time": "2026-07-28T10:38:21.301Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-07-28T10:38:21.301Z"
+        },
+        {
+          "msg": "  Posts (0): none",
+          "type": "info",
+          "time": "2026-07-28T10:38:21.301Z"
+        },
+        {
+          "msg": "  Terms (0): none",
+          "type": "info",
+          "time": "2026-07-28T10:38:21.301Z"
+        },
+        {
+          "msg": "Writing article for \"how to find local business contacts without a data subscription\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-07-28T10:38:21.302Z"
+        }
+      ],
+      "topic": "how to find local business contacts without a data subscription",
+      "tierId": 2,
+      "keyword": "how to find local business contacts without a data subscription",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 0,
+      "internalTermLinks": 0,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CdUJyy1ngYVywioAs7xvT\"}",
+      "finishedAt": "2026-07-28T10:38:21.487Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-07-27T11:27:16.688Z",
