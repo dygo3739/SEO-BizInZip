@@ -247,10 +247,10 @@
     },
     {
       "topic": "best tools to find local business phone numbers",
-      "uses": 1,
+      "uses": 2,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-06-19T12:09:49.558Z"
+      "lastRun": "2026-07-30T10:27:22.843Z"
     },
     {
       "topic": "how to find insurance agencies in my area",
@@ -289,6 +289,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-07-30T10:27:22.843Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-07-30T10:27:22.846Z"
+        },
+        {
+          "msg": "Topic: \"best tools to find local business phone numbers\" (used 1x before)",
+          "type": "info",
+          "time": "2026-07-30T10:27:22.849Z"
+        },
+        {
+          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
+          "type": "info",
+          "time": "2026-07-30T10:27:22.849Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-07-30T10:27:22.849Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-07-30T10:27:23.275Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-07-30T10:27:23.275Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-07-30T10:27:23.276Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-07-30T10:27:23.277Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-07-30T10:27:25.227Z"
+        },
+        {
+          "msg": "Found 666 published posts",
+          "type": "info",
+          "time": "2026-07-30T10:27:25.446Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-07-30T10:27:25.448Z"
+        },
+        {
+          "msg": "  Posts (3): \"How To Find Local Business Leads 7 Proven Strategies That Actually Work\", \"How To Find Local Business Leads By Zip Code Before Your Competition Does\", \"7 Local Business Prospecting Tips That Actually Work From A Sales Pro\"",
+          "type": "info",
+          "time": "2026-07-30T10:27:25.449Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Google Business Profile\", \"Glossary\", \"Glossary/Zip Code Prospecting\"",
+          "type": "info",
+          "time": "2026-07-30T10:27:25.449Z"
+        },
+        {
+          "msg": "Writing article for \"best tools to find local business phone numbers\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-07-30T10:27:25.449Z"
+        }
+      ],
+      "topic": "best tools to find local business phone numbers",
+      "tierId": 2,
+      "keyword": "best tools to find local business phone numbers",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CdY5mTE536aZfBCnyLd4Y\"}",
+      "finishedAt": "2026-07-30T10:27:25.637Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-07-29T10:41:41.309Z",
