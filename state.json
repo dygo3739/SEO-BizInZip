@@ -100,10 +100,10 @@
     },
     {
       "topic": "how to use Google Maps for lead generation",
-      "uses": 2,
+      "uses": 3,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-07-09T11:08:01.815Z"
+      "lastRun": "2026-08-19T08:42:50.552Z"
     },
     {
       "topic": "how to find business email addresses free",
@@ -289,6 +289,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-08-19T08:42:50.552Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-08-19T08:42:50.555Z"
+        },
+        {
+          "msg": "Topic: \"how to use Google Maps for lead generation\" (used 2x before)",
+          "type": "info",
+          "time": "2026-08-19T08:42:50.559Z"
+        },
+        {
+          "msg": "Active tier: 3 — Competing (KD<=65, vol>=500)",
+          "type": "info",
+          "time": "2026-08-19T08:42:50.559Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-08-19T08:42:50.559Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-08-19T08:42:51.231Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-08-19T08:42:51.231Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-08-19T08:42:51.231Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-08-19T08:42:51.233Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-08-19T08:42:51.450Z"
+        },
+        {
+          "msg": "Found 675 published posts",
+          "type": "info",
+          "time": "2026-08-19T08:42:51.456Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-08-19T08:42:51.457Z"
+        },
+        {
+          "msg": "  Posts (3): \"Pay Per Lead Vs Subscription Lead Generation Which Pricing Model Works Best For Sales Teams\", \"7 Best Google Maps Scraping Tools For Sales Teams 2024 Comparison\", \"Live Local Business Lead Generation\"",
+          "type": "info",
+          "time": "2026-08-19T08:42:51.457Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Lead Generation\", \"Glossary/Pay Per Lead\", \"Glossary/Warm Lead\"",
+          "type": "info",
+          "time": "2026-08-19T08:42:51.457Z"
+        },
+        {
+          "msg": "Writing article for \"how to use Google Maps for lead generation\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-08-19T08:42:51.458Z"
+        }
+      ],
+      "topic": "how to use Google Maps for lead generation",
+      "tierId": 3,
+      "keyword": "how to use Google Maps for lead generation",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CeBoyHPqbRYyMm5t7zJZN\"}",
+      "finishedAt": "2026-08-19T08:42:51.629Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-08-18T08:39:52.973Z",
