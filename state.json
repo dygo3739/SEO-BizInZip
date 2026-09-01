@@ -191,10 +191,10 @@
     },
     {
       "topic": "why local businesses don't need ZoomInfo",
-      "uses": 2,
+      "uses": 3,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-07-22T10:27:56.846Z"
+      "lastRun": "2026-09-01T13:15:16.491Z"
     },
     {
       "topic": "D7 Lead Finder vs BizInZip",
@@ -289,6 +289,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-09-01T13:15:16.491Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-09-01T13:15:16.494Z"
+        },
+        {
+          "msg": "Topic: \"why local businesses don't need ZoomInfo\" (used 2x before)",
+          "type": "info",
+          "time": "2026-09-01T13:15:16.498Z"
+        },
+        {
+          "msg": "Active tier: 3 — Competing (KD<=65, vol>=500)",
+          "type": "info",
+          "time": "2026-09-01T13:15:16.498Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-09-01T13:15:16.498Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-09-01T13:15:17.132Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-09-01T13:15:17.132Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-09-01T13:15:17.132Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-09-01T13:15:17.134Z"
+        },
+        {
+          "msg": "Found 0 glossary terms",
+          "type": "info",
+          "time": "2026-09-01T13:15:17.945Z"
+        },
+        {
+          "msg": "Found 0 published posts",
+          "type": "info",
+          "time": "2026-09-01T13:15:17.947Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-09-01T13:15:17.948Z"
+        },
+        {
+          "msg": "  Posts (0): none",
+          "type": "info",
+          "time": "2026-09-01T13:15:17.948Z"
+        },
+        {
+          "msg": "  Terms (0): none",
+          "type": "info",
+          "time": "2026-09-01T13:15:17.948Z"
+        },
+        {
+          "msg": "Writing article for \"why local businesses don't need ZoomInfo\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-09-01T13:15:17.948Z"
+        }
+      ],
+      "topic": "why local businesses don't need ZoomInfo",
+      "tierId": 3,
+      "keyword": "why local businesses don't need ZoomInfo",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 0,
+      "internalTermLinks": 0,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CecnGAM1uGp1b3N1umKsR\"}",
+      "finishedAt": "2026-09-01T13:15:18.244Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-08-31T15:58:05.675Z",
@@ -9595,135 +9681,6 @@
       "imageCredit": "Memento Media",
       "error": "keyword.toLowerCase is not a function",
       "finishedAt": "2026-05-31T07:34:16.826Z"
-    },
-    {
-      "status": "error",
-      "startedAt": "2026-05-30T10:03:12.184Z",
-      "logs": [
-        {
-          "msg": "Loading state...",
-          "type": "info",
-          "time": "2026-05-30T10:03:12.187Z"
-        },
-        {
-          "msg": "Topic: \"how to find HVAC contractor contact info\" (used 0x before)",
-          "type": "info",
-          "time": "2026-05-30T10:03:12.189Z"
-        },
-        {
-          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
-          "type": "info",
-          "time": "2026-05-30T10:03:12.189Z"
-        },
-        {
-          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
-          "type": "info",
-          "time": "2026-05-30T10:03:12.189Z"
-        },
-        {
-          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
-          "type": "warn",
-          "time": "2026-05-30T10:03:12.773Z"
-        },
-        {
-          "msg": "Fetching internal link sources...",
-          "type": "info",
-          "time": "2026-05-30T10:03:12.773Z"
-        },
-        {
-          "msg": "Fetching post sitemap...",
-          "type": "info",
-          "time": "2026-05-30T10:03:12.773Z"
-        },
-        {
-          "msg": "Fetching glossary terms sitemap...",
-          "type": "info",
-          "time": "2026-05-30T10:03:12.775Z"
-        },
-        {
-          "msg": "Found 0 glossary terms",
-          "type": "info",
-          "time": "2026-05-30T10:03:12.832Z"
-        },
-        {
-          "msg": "Found 0 published posts",
-          "type": "info",
-          "time": "2026-05-30T10:03:12.834Z"
-        },
-        {
-          "msg": "Internal links selected:",
-          "type": "info",
-          "time": "2026-05-30T10:03:12.834Z"
-        },
-        {
-          "msg": "  Posts (0): none",
-          "type": "info",
-          "time": "2026-05-30T10:03:12.834Z"
-        },
-        {
-          "msg": "  Terms (0): none",
-          "type": "info",
-          "time": "2026-05-30T10:03:12.834Z"
-        },
-        {
-          "msg": "Writing article for \"how to find HVAC contractor contact info\" (competition: unknown)...",
-          "type": "info",
-          "time": "2026-05-30T10:03:12.835Z"
-        },
-        {
-          "msg": "Article ready: \"How to Find HVAC Contractor Contact Info: The Complete Guide for Sales Professionals\"",
-          "type": "info",
-          "time": "2026-05-30T10:03:55.135Z"
-        },
-        {
-          "msg": "Excerpt length: 149 chars",
-          "type": "info",
-          "time": "2026-05-30T10:03:55.135Z"
-        },
-        {
-          "msg": "Unsplash query: \"business professional phone contact\"",
-          "type": "info",
-          "time": "2026-05-30T10:03:55.135Z"
-        },
-        {
-          "msg": "Post links: 0 | Term links: 0",
-          "type": "info",
-          "time": "2026-05-30T10:03:55.135Z"
-        },
-        {
-          "msg": "Fetching Unsplash image for: \"business professional phone contact\"...",
-          "type": "info",
-          "time": "2026-05-30T10:03:55.135Z"
-        },
-        {
-          "msg": "Image: \"man using smartphone on chair\" by bruce mars",
-          "type": "info",
-          "time": "2026-05-30T10:03:55.662Z"
-        },
-        {
-          "msg": "Downloading hero image...",
-          "type": "info",
-          "time": "2026-05-30T10:03:55.663Z"
-        },
-        {
-          "msg": "Uploading image to WordPress media library...",
-          "type": "info",
-          "time": "2026-05-30T10:03:55.785Z"
-        }
-      ],
-      "topic": "how to find HVAC contractor contact info",
-      "tierId": 2,
-      "keyword": "how to find HVAC contractor contact info",
-      "kd": null,
-      "vol": null,
-      "score": null,
-      "internalPostLinks": 0,
-      "internalTermLinks": 0,
-      "title": "How to Find HVAC Contractor Contact Info: The Complete Guide for Sales Professionals",
-      "imageUrl": "https://images.unsplash.com/photo-1537511446984-935f663eb1f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHByb2Zlc3Npb25hbCUyMHBob25lJTIwY29udGFjdHxlbnwxfDB8fHwxNzgwMTM1NDM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageCredit": "bruce mars",
-      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
-      "finishedAt": "2026-05-30T10:03:55.908Z"
     }
   ]
 }
