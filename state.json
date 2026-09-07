@@ -233,10 +233,10 @@
     },
     {
       "topic": "how to find local business contacts without a data subscription",
-      "uses": 2,
+      "uses": 3,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-07-28T10:38:20.478Z"
+      "lastRun": "2026-09-07T14:04:37.765Z"
     },
     {
       "topic": "Google Maps lead generation tools compared",
@@ -289,6 +289,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-09-07T14:04:37.765Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-09-07T14:04:37.768Z"
+        },
+        {
+          "msg": "Topic: \"how to find local business contacts without a data subscription\" (used 2x before)",
+          "type": "info",
+          "time": "2026-09-07T14:04:37.771Z"
+        },
+        {
+          "msg": "Active tier: 3 — Competing (KD<=65, vol>=500)",
+          "type": "info",
+          "time": "2026-09-07T14:04:37.771Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-09-07T14:04:37.771Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-09-07T14:04:38.201Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-09-07T14:04:38.201Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-09-07T14:04:38.201Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-09-07T14:04:38.203Z"
+        },
+        {
+          "msg": "Found 0 published posts",
+          "type": "info",
+          "time": "2026-09-07T14:04:38.451Z"
+        },
+        {
+          "msg": "Found 0 glossary terms",
+          "type": "info",
+          "time": "2026-09-07T14:04:38.453Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-09-07T14:04:38.454Z"
+        },
+        {
+          "msg": "  Posts (0): none",
+          "type": "info",
+          "time": "2026-09-07T14:04:38.454Z"
+        },
+        {
+          "msg": "  Terms (0): none",
+          "type": "info",
+          "time": "2026-09-07T14:04:38.454Z"
+        },
+        {
+          "msg": "Writing article for \"how to find local business contacts without a data subscription\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-09-07T14:04:38.454Z"
+        }
+      ],
+      "topic": "how to find local business contacts without a data subscription",
+      "tierId": 3,
+      "keyword": "how to find local business contacts without a data subscription",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 0,
+      "internalTermLinks": 0,
+      "error": "Anthropic API HTTP 400: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.\"},\"request_id\":\"req_011CepCstAGs9FPKg8WGQGy4\"}",
+      "finishedAt": "2026-09-07T14:04:38.630Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-09-06T12:00:55.441Z",
@@ -9387,125 +9473,6 @@
       "mediaId": 1557,
       "mediaUrl": "https://bizinzip.com/wp-content/uploads/2026/05/bizinzip-hero-1780224735307.jpg",
       "finishedAt": "2026-05-31T10:52:21.097Z"
-    },
-    {
-      "status": "error",
-      "startedAt": "2026-05-31T10:45:19.705Z",
-      "logs": [
-        {
-          "msg": "Loading state...",
-          "type": "info",
-          "time": "2026-05-31T10:45:19.708Z"
-        },
-        {
-          "msg": "Topic: \"how to find business email addresses free\" (used 0x before)",
-          "type": "info",
-          "time": "2026-05-31T10:45:19.710Z"
-        },
-        {
-          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
-          "type": "info",
-          "time": "2026-05-31T10:45:19.710Z"
-        },
-        {
-          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
-          "type": "info",
-          "time": "2026-05-31T10:45:19.710Z"
-        },
-        {
-          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
-          "type": "warn",
-          "time": "2026-05-31T10:45:20.235Z"
-        },
-        {
-          "msg": "Fetching internal link sources...",
-          "type": "info",
-          "time": "2026-05-31T10:45:20.235Z"
-        },
-        {
-          "msg": "Fetching post sitemap...",
-          "type": "info",
-          "time": "2026-05-31T10:45:20.235Z"
-        },
-        {
-          "msg": "Fetching glossary terms sitemap...",
-          "type": "info",
-          "time": "2026-05-31T10:45:20.239Z"
-        },
-        {
-          "msg": "Found 0 glossary terms",
-          "type": "info",
-          "time": "2026-05-31T10:45:20.526Z"
-        },
-        {
-          "msg": "Found 0 published posts",
-          "type": "info",
-          "time": "2026-05-31T10:45:20.529Z"
-        },
-        {
-          "msg": "Internal links selected:",
-          "type": "info",
-          "time": "2026-05-31T10:45:20.529Z"
-        },
-        {
-          "msg": "  Posts (0): none",
-          "type": "info",
-          "time": "2026-05-31T10:45:20.529Z"
-        },
-        {
-          "msg": "  Terms (0): none",
-          "type": "info",
-          "time": "2026-05-31T10:45:20.529Z"
-        },
-        {
-          "msg": "Writing article for \"how to find business email addresses free\" (competition: unknown)...",
-          "type": "info",
-          "time": "2026-05-31T10:45:20.530Z"
-        },
-        {
-          "msg": "Article ready: \"How to Find Business Email Addresses Free: 7 Proven Methods for Sales Prospecting\"",
-          "type": "info",
-          "time": "2026-05-31T10:46:03.466Z"
-        },
-        {
-          "msg": "Excerpt length: 196 chars",
-          "type": "info",
-          "time": "2026-05-31T10:46:03.466Z"
-        },
-        {
-          "msg": "Unsplash query: \"business email laptop\"",
-          "type": "info",
-          "time": "2026-05-31T10:46:03.466Z"
-        },
-        {
-          "msg": "Post links: 0 | Term links: 0",
-          "type": "info",
-          "time": "2026-05-31T10:46:03.466Z"
-        },
-        {
-          "msg": "Fetching Unsplash image for: \"business email laptop\"...",
-          "type": "info",
-          "time": "2026-05-31T10:46:03.466Z"
-        },
-        {
-          "msg": "Image: \"person using MacBook Pro\" by Glenn Carstens-Peters",
-          "type": "info",
-          "time": "2026-05-31T10:46:04.100Z"
-        }
-      ],
-      "topic": "how to find business email addresses free",
-      "tierId": 2,
-      "keyword": "how to find business email addresses free",
-      "kd": null,
-      "vol": null,
-      "score": null,
-      "internalPostLinks": 0,
-      "internalTermLinks": 0,
-      "title": "How to Find Business Email Addresses Free: 7 Proven Methods for Sales Prospecting",
-      "imageUrl": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGVtYWlsJTIwbGFwdG9wfGVufDF8MHx8fDE3ODAyMjQzNjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageCredit": "Glenn Carstens-Peters",
-      "error": "Unexpected token '<', \"<html><hea\"... is not valid JSON",
-      "finishedAt": "2026-05-31T10:46:04.680Z"
     }
   ]
 }
