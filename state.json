@@ -247,10 +247,10 @@
     },
     {
       "topic": "best tools to find local business phone numbers",
-      "uses": 2,
+      "uses": 3,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-07-30T10:27:22.843Z"
+      "lastRun": "2026-09-09T12:48:35.984Z"
     },
     {
       "topic": "how to find insurance agencies in my area",
@@ -289,6 +289,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-09-09T12:48:35.984Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-09-09T12:48:35.988Z"
+        },
+        {
+          "msg": "Topic: \"best tools to find local business phone numbers\" (used 2x before)",
+          "type": "info",
+          "time": "2026-09-09T12:48:35.991Z"
+        },
+        {
+          "msg": "Active tier: 3 — Competing (KD<=65, vol>=500)",
+          "type": "info",
+          "time": "2026-09-09T12:48:35.991Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-09-09T12:48:35.992Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-09-09T12:48:38.567Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-09-09T12:48:38.567Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-09-09T12:48:38.567Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-09-09T12:48:38.569Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-09-09T12:48:40.171Z"
+        },
+        {
+          "msg": "Found 696 published posts",
+          "type": "info",
+          "time": "2026-09-09T12:48:40.505Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-09-09T12:48:40.507Z"
+        },
+        {
+          "msg": "  Posts (3): \"How To Find Local Business Leads 7 Proven Strategies That Actually Work\", \"How To Find Local Business Leads By Zip Code Before Your Competition Does\", \"7 Local Business Prospecting Tips That Actually Work From A Sales Pro\"",
+          "type": "info",
+          "time": "2026-09-09T12:48:40.507Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Google Business Profile\", \"Glossary\", \"Glossary/Zip Code Prospecting\"",
+          "type": "info",
+          "time": "2026-09-09T12:48:40.507Z"
+        },
+        {
+          "msg": "Writing article for \"best tools to find local business phone numbers\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-09-09T12:48:40.507Z"
+        }
+      ],
+      "topic": "best tools to find local business phone numbers",
+      "tierId": 3,
+      "keyword": "best tools to find local business phone numbers",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CesthjZjQemSg2yPrktyf\"}",
+      "finishedAt": "2026-09-09T12:48:40.825Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-09-08T12:41:59.959Z",
@@ -9305,133 +9391,6 @@
       "imageCredit": "Joey Csunyo",
       "error": "Unexpected token '<', \"<html><head><link re\"... is not valid JSON",
       "finishedAt": "2026-06-03T02:50:41.566Z"
-    },
-    {
-      "status": "success",
-      "startedAt": "2026-06-01T13:40:43.956Z",
-      "logs": [
-        {
-          "msg": "Loading state...",
-          "type": "info",
-          "time": "2026-06-01T13:40:43.959Z"
-        },
-        {
-          "msg": "Topic: \"pay per lead vs subscription lead generation tools\" (used 0x before)",
-          "type": "info",
-          "time": "2026-06-01T13:40:43.960Z"
-        },
-        {
-          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
-          "type": "info",
-          "time": "2026-06-01T13:40:43.960Z"
-        },
-        {
-          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
-          "type": "info",
-          "time": "2026-06-01T13:40:43.960Z"
-        },
-        {
-          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
-          "type": "warn",
-          "time": "2026-06-01T13:40:44.540Z"
-        },
-        {
-          "msg": "Fetching internal link sources...",
-          "type": "info",
-          "time": "2026-06-01T13:40:44.540Z"
-        },
-        {
-          "msg": "Fetching post sitemap...",
-          "type": "info",
-          "time": "2026-06-01T13:40:44.540Z"
-        },
-        {
-          "msg": "Fetching glossary terms sitemap...",
-          "type": "info",
-          "time": "2026-06-01T13:40:44.541Z"
-        },
-        {
-          "msg": "Found 288 published posts",
-          "type": "info",
-          "time": "2026-06-01T13:40:46.018Z"
-        },
-        {
-          "msg": "Found 51 glossary terms",
-          "type": "info",
-          "time": "2026-06-01T13:40:46.377Z"
-        },
-        {
-          "msg": "Internal links selected:",
-          "type": "info",
-          "time": "2026-06-01T13:40:46.378Z"
-        },
-        {
-          "msg": "  Posts (3): \"Best Ways To Get Business Leads Without A Subscription 12 Free Strategies That Actually Work\", \"Car Wash\", \"New York Ny\"",
-          "type": "info",
-          "time": "2026-06-01T13:40:46.378Z"
-        },
-        {
-          "msg": "  Terms (3): \"Glossary/Lead Generation\", \"Glossary/Pay Per Lead\", \"Glossary/Warm Lead\"",
-          "type": "info",
-          "time": "2026-06-01T13:40:46.378Z"
-        },
-        {
-          "msg": "Writing article for \"pay per lead vs subscription lead generation tools\" (competition: unknown)...",
-          "type": "info",
-          "time": "2026-06-01T13:40:46.379Z"
-        },
-        {
-          "msg": "Article ready: \"Pay Per Lead vs Subscription Lead Generation: Which Pricing Model Works Best for Sales Teams?\"",
-          "type": "info",
-          "time": "2026-06-01T13:41:44.269Z"
-        },
-        {
-          "msg": "Excerpt length: 145 chars",
-          "type": "info",
-          "time": "2026-06-01T13:41:44.269Z"
-        },
-        {
-          "msg": "Unsplash query: \"sales team office\"",
-          "type": "info",
-          "time": "2026-06-01T13:41:44.269Z"
-        },
-        {
-          "msg": "Post links: 3 | Term links: 3",
-          "type": "info",
-          "time": "2026-06-01T13:41:44.269Z"
-        },
-        {
-          "msg": "Fetching Unsplash image for: \"sales team office\"...",
-          "type": "info",
-          "time": "2026-06-01T13:41:44.269Z"
-        },
-        {
-          "msg": "Image: \"man sitting in front of table\" by Arlington Research",
-          "type": "info",
-          "time": "2026-06-01T13:41:44.927Z"
-        },
-        {
-          "msg": "Pinterest skipped — add PINTEREST_TOKEN + PINTEREST_BOARD_ID to GitHub Secrets once approved",
-          "type": "warn",
-          "time": "2026-06-01T13:41:50.893Z"
-        }
-      ],
-      "topic": "pay per lead vs subscription lead generation tools",
-      "tierId": 2,
-      "keyword": "pay per lead vs subscription lead generation tools",
-      "kd": null,
-      "vol": null,
-      "score": null,
-      "internalPostLinks": 3,
-      "internalTermLinks": 3,
-      "title": "Pay Per Lead vs Subscription Lead Generation: Which Pricing Model Works Best for Sales Teams?",
-      "imageUrl": "https://images.unsplash.com/photo-1560264418-c4445382edbc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MDg4NjV8MHwxfHNlYXJjaHwxfHxzYWxlcyUyMHRlYW0lMjBvZmZpY2V8ZW58MXwwfHx8MTc4MDMyMTMwNHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageCredit": "Arlington Research",
-      "postId": 1633,
-      "postUrl": "https://bizinzip.com/pay-per-lead-vs-subscription-lead-generation-which-pricing-model-works-best-for-sales-teams/",
-      "mediaId": 1632,
-      "mediaUrl": "https://bizinzip.com/wp-content/uploads/2026/06/bizinzip-hero-1780321305097.jpg",
-      "finishedAt": "2026-06-01T13:41:50.893Z"
     }
   ]
 }
