@@ -65,10 +65,10 @@
     },
     {
       "topic": "how to find HVAC contractor contact info",
-      "uses": 3,
+      "uses": 4,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-08-14T09:10:14.115Z"
+      "lastRun": "2026-09-24T13:23:47.367Z"
     },
     {
       "topic": "plumber leads by zip code",
@@ -289,6 +289,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-09-24T13:23:47.367Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-09-24T13:23:47.371Z"
+        },
+        {
+          "msg": "Topic: \"how to find HVAC contractor contact info\" (used 3x before)",
+          "type": "info",
+          "time": "2026-09-24T13:23:47.375Z"
+        },
+        {
+          "msg": "Active tier: 3 — Competing (KD<=65, vol>=500)",
+          "type": "info",
+          "time": "2026-09-24T13:23:47.375Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-09-24T13:23:47.375Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-09-24T13:23:47.870Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-09-24T13:23:47.870Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-09-24T13:23:47.870Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-09-24T13:23:47.873Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-09-24T13:23:48.312Z"
+        },
+        {
+          "msg": "Found 720 published posts",
+          "type": "info",
+          "time": "2026-09-24T13:23:49.380Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-09-24T13:23:49.382Z"
+        },
+        {
+          "msg": "  Posts (3): \"How To Find Hvac Contractor Contact Info 5 Proven Methods That Work\", \"How To Find Small Business Contact Information 7 Proven Methods That Work\", \"Find Contractor Leads By Zip Code\"",
+          "type": "info",
+          "time": "2026-09-24T13:23:49.382Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary\", \"Glossary/Zip Code Prospecting\", \"Glossary/Lead Generation\"",
+          "type": "info",
+          "time": "2026-09-24T13:23:49.382Z"
+        },
+        {
+          "msg": "Writing article for \"how to find HVAC contractor contact info\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-09-24T13:23:49.382Z"
+        }
+      ],
+      "topic": "how to find HVAC contractor contact info",
+      "tierId": 3,
+      "keyword": "how to find HVAC contractor contact info",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CfNLWv9YeR7NP2ATqFGTz\"}",
+      "finishedAt": "2026-09-24T13:23:49.762Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-09-23T13:26:57.108Z",
@@ -8812,92 +8898,6 @@
       "internalTermLinks": 0,
       "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011Cc8pXDT9UuAyqZXtHgdaX\"}",
       "finishedAt": "2026-06-17T12:19:22.699Z"
-    },
-    {
-      "status": "error",
-      "startedAt": "2026-06-16T12:57:07.561Z",
-      "logs": [
-        {
-          "msg": "Loading state...",
-          "type": "info",
-          "time": "2026-06-16T12:57:07.564Z"
-        },
-        {
-          "msg": "Topic: \"PhantomBuster alternatives for local prospecting\" (used 0x before)",
-          "type": "info",
-          "time": "2026-06-16T12:57:07.566Z"
-        },
-        {
-          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
-          "type": "info",
-          "time": "2026-06-16T12:57:07.566Z"
-        },
-        {
-          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
-          "type": "info",
-          "time": "2026-06-16T12:57:07.567Z"
-        },
-        {
-          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
-          "type": "warn",
-          "time": "2026-06-16T12:57:07.966Z"
-        },
-        {
-          "msg": "Fetching internal link sources...",
-          "type": "info",
-          "time": "2026-06-16T12:57:07.966Z"
-        },
-        {
-          "msg": "Fetching post sitemap...",
-          "type": "info",
-          "time": "2026-06-16T12:57:07.966Z"
-        },
-        {
-          "msg": "Fetching glossary terms sitemap...",
-          "type": "info",
-          "time": "2026-06-16T12:57:07.968Z"
-        },
-        {
-          "msg": "Found 0 glossary terms",
-          "type": "info",
-          "time": "2026-06-16T12:57:08.319Z"
-        },
-        {
-          "msg": "Found 0 published posts",
-          "type": "info",
-          "time": "2026-06-16T12:57:08.320Z"
-        },
-        {
-          "msg": "Internal links selected:",
-          "type": "info",
-          "time": "2026-06-16T12:57:08.321Z"
-        },
-        {
-          "msg": "  Posts (0): none",
-          "type": "info",
-          "time": "2026-06-16T12:57:08.321Z"
-        },
-        {
-          "msg": "  Terms (0): none",
-          "type": "info",
-          "time": "2026-06-16T12:57:08.321Z"
-        },
-        {
-          "msg": "Writing article for \"PhantomBuster alternatives for local prospecting\" (competition: unknown)...",
-          "type": "info",
-          "time": "2026-06-16T12:57:08.321Z"
-        }
-      ],
-      "topic": "PhantomBuster alternatives for local prospecting",
-      "tierId": 2,
-      "keyword": "PhantomBuster alternatives for local prospecting",
-      "kd": null,
-      "vol": null,
-      "score": null,
-      "internalPostLinks": 0,
-      "internalTermLinks": 0,
-      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011Cc6ybL1CMetA9YFHAy7J9\"}",
-      "finishedAt": "2026-06-16T12:57:08.553Z"
     }
   ]
 }
