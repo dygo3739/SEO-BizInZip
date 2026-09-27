@@ -86,10 +86,10 @@
     },
     {
       "topic": "how to prospect law firms locally",
-      "uses": 3,
+      "uses": 4,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-08-17T08:46:20.595Z"
+      "lastRun": "2026-09-27T13:39:08.612Z"
     },
     {
       "topic": "how to find mortgage broker leads",
@@ -289,6 +289,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-09-27T13:39:08.612Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-09-27T13:39:08.616Z"
+        },
+        {
+          "msg": "Topic: \"how to prospect law firms locally\" (used 3x before)",
+          "type": "info",
+          "time": "2026-09-27T13:39:08.619Z"
+        },
+        {
+          "msg": "Active tier: 3 — Competing (KD<=65, vol>=500)",
+          "type": "info",
+          "time": "2026-09-27T13:39:08.619Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-09-27T13:39:08.619Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-09-27T13:39:09.250Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-09-27T13:39:09.250Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-09-27T13:39:09.250Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-09-27T13:39:09.252Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-09-27T13:39:09.792Z"
+        },
+        {
+          "msg": "Found 726 published posts",
+          "type": "info",
+          "time": "2026-09-27T13:39:10.018Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-09-27T13:39:10.020Z"
+        },
+        {
+          "msg": "  Posts (3): \"How To Build A B2b Prospect List That Actually Converts\", \"Building Prospect Lists Sales Reps\", \"Accounting Firms\"",
+          "type": "info",
+          "time": "2026-09-27T13:39:10.020Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary\", \"Glossary/Zip Code Prospecting\", \"Glossary/Lead Generation\"",
+          "type": "info",
+          "time": "2026-09-27T13:39:10.020Z"
+        },
+        {
+          "msg": "Writing article for \"how to prospect law firms locally\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-09-27T13:39:10.020Z"
+        }
+      ],
+      "topic": "how to prospect law firms locally",
+      "tierId": 3,
+      "keyword": "how to prospect law firms locally",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CfU37XdNLe9AviLWvRQgJ\"}",
+      "finishedAt": "2026-09-27T13:39:10.394Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-09-26T12:46:51.270Z",
@@ -8812,92 +8898,6 @@
       "internalTermLinks": 0,
       "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CcEN1TmmtyyPpHY8zUuUo\"}",
       "finishedAt": "2026-06-20T10:35:15.798Z"
-    },
-    {
-      "status": "error",
-      "startedAt": "2026-06-19T12:09:49.558Z",
-      "logs": [
-        {
-          "msg": "Loading state...",
-          "type": "info",
-          "time": "2026-06-19T12:09:49.562Z"
-        },
-        {
-          "msg": "Topic: \"best tools to find local business phone numbers\" (used 0x before)",
-          "type": "info",
-          "time": "2026-06-19T12:09:49.564Z"
-        },
-        {
-          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
-          "type": "info",
-          "time": "2026-06-19T12:09:49.564Z"
-        },
-        {
-          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
-          "type": "info",
-          "time": "2026-06-19T12:09:49.564Z"
-        },
-        {
-          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
-          "type": "warn",
-          "time": "2026-06-19T12:09:50.050Z"
-        },
-        {
-          "msg": "Fetching internal link sources...",
-          "type": "info",
-          "time": "2026-06-19T12:09:50.050Z"
-        },
-        {
-          "msg": "Fetching post sitemap...",
-          "type": "info",
-          "time": "2026-06-19T12:09:50.050Z"
-        },
-        {
-          "msg": "Fetching glossary terms sitemap...",
-          "type": "info",
-          "time": "2026-06-19T12:09:50.052Z"
-        },
-        {
-          "msg": "Found 51 glossary terms",
-          "type": "info",
-          "time": "2026-06-19T12:09:51.016Z"
-        },
-        {
-          "msg": "Found 665 published posts",
-          "type": "info",
-          "time": "2026-06-19T12:09:51.193Z"
-        },
-        {
-          "msg": "Internal links selected:",
-          "type": "info",
-          "time": "2026-06-19T12:09:51.196Z"
-        },
-        {
-          "msg": "  Posts (3): \"How To Find Local Business Leads 7 Proven Strategies That Actually Work\", \"7 Local Business Prospecting Tips That Actually Work From A Sales Pro\", \"How To Find Small Business Contact Information 7 Proven Methods That Work\"",
-          "type": "info",
-          "time": "2026-06-19T12:09:51.196Z"
-        },
-        {
-          "msg": "  Terms (3): \"Glossary/Google Business Profile\", \"Glossary\", \"Glossary/Zip Code Prospecting\"",
-          "type": "info",
-          "time": "2026-06-19T12:09:51.196Z"
-        },
-        {
-          "msg": "Writing article for \"best tools to find local business phone numbers\" (competition: unknown)...",
-          "type": "info",
-          "time": "2026-06-19T12:09:51.196Z"
-        }
-      ],
-      "topic": "best tools to find local business phone numbers",
-      "tierId": 2,
-      "keyword": "best tools to find local business phone numbers",
-      "kd": null,
-      "vol": null,
-      "score": null,
-      "internalPostLinks": 3,
-      "internalTermLinks": 3,
-      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CcCbQwH9KJwUw1ZTJ9LM2\"}",
-      "finishedAt": "2026-06-19T12:09:51.401Z"
     }
   ]
 }
