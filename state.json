@@ -170,10 +170,10 @@
     },
     {
       "topic": "sales territory mapping by zip code",
-      "uses": 3,
+      "uses": 4,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-08-29T13:41:42.342Z"
+      "lastRun": "2026-10-10T14:19:37.001Z"
     },
     {
       "topic": "how to prioritize leads by Google rating",
@@ -289,6 +289,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-10-10T14:19:37.001Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-10-10T14:19:37.004Z"
+        },
+        {
+          "msg": "Topic: \"sales territory mapping by zip code\" (used 3x before)",
+          "type": "info",
+          "time": "2026-10-10T14:19:37.008Z"
+        },
+        {
+          "msg": "Active tier: 3 — Competing (KD<=65, vol>=500)",
+          "type": "info",
+          "time": "2026-10-10T14:19:37.008Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-10-10T14:19:37.008Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-10-10T14:19:37.596Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-10-10T14:19:37.596Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-10-10T14:19:37.596Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-10-10T14:19:37.598Z"
+        },
+        {
+          "msg": "Found 0 published posts",
+          "type": "info",
+          "time": "2026-10-10T14:19:37.664Z"
+        },
+        {
+          "msg": "Found 0 glossary terms",
+          "type": "info",
+          "time": "2026-10-10T14:19:37.671Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-10-10T14:19:37.671Z"
+        },
+        {
+          "msg": "  Posts (0): none",
+          "type": "info",
+          "time": "2026-10-10T14:19:37.671Z"
+        },
+        {
+          "msg": "  Terms (0): none",
+          "type": "info",
+          "time": "2026-10-10T14:19:37.671Z"
+        },
+        {
+          "msg": "Writing article for \"sales territory mapping by zip code\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-10-10T14:19:37.672Z"
+        }
+      ],
+      "topic": "sales territory mapping by zip code",
+      "tierId": 3,
+      "keyword": "sales territory mapping by zip code",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 0,
+      "internalTermLinks": 0,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CfthiPL38dGptk2iLXehh\"}",
+      "finishedAt": "2026-10-10T14:19:37.996Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-10-09T15:04:29.589Z",
@@ -8822,92 +8908,6 @@
       "internalTermLinks": 3,
       "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011Ccd6P9TnaKBEbLiJcJmr2\"}",
       "finishedAt": "2026-07-02T10:44:00.653Z"
-    },
-    {
-      "status": "error",
-      "startedAt": "2026-07-01T11:26:48.746Z",
-      "logs": [
-        {
-          "msg": "Loading state...",
-          "type": "info",
-          "time": "2026-07-01T11:26:48.750Z"
-        },
-        {
-          "msg": "Topic: \"real estate prospecting by zip code\" (used 1x before)",
-          "type": "info",
-          "time": "2026-07-01T11:26:48.752Z"
-        },
-        {
-          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
-          "type": "info",
-          "time": "2026-07-01T11:26:48.752Z"
-        },
-        {
-          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
-          "type": "info",
-          "time": "2026-07-01T11:26:48.753Z"
-        },
-        {
-          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
-          "type": "warn",
-          "time": "2026-07-01T11:26:49.162Z"
-        },
-        {
-          "msg": "Fetching internal link sources...",
-          "type": "info",
-          "time": "2026-07-01T11:26:49.162Z"
-        },
-        {
-          "msg": "Fetching post sitemap...",
-          "type": "info",
-          "time": "2026-07-01T11:26:49.162Z"
-        },
-        {
-          "msg": "Fetching glossary terms sitemap...",
-          "type": "info",
-          "time": "2026-07-01T11:26:49.164Z"
-        },
-        {
-          "msg": "Found 0 glossary terms",
-          "type": "info",
-          "time": "2026-07-01T11:26:49.564Z"
-        },
-        {
-          "msg": "Found 0 published posts",
-          "type": "info",
-          "time": "2026-07-01T11:26:49.565Z"
-        },
-        {
-          "msg": "Internal links selected:",
-          "type": "info",
-          "time": "2026-07-01T11:26:49.565Z"
-        },
-        {
-          "msg": "  Posts (0): none",
-          "type": "info",
-          "time": "2026-07-01T11:26:49.566Z"
-        },
-        {
-          "msg": "  Terms (0): none",
-          "type": "info",
-          "time": "2026-07-01T11:26:49.566Z"
-        },
-        {
-          "msg": "Writing article for \"real estate prospecting by zip code\" (competition: unknown)...",
-          "type": "info",
-          "time": "2026-07-01T11:26:49.566Z"
-        }
-      ],
-      "topic": "real estate prospecting by zip code",
-      "tierId": 2,
-      "keyword": "real estate prospecting by zip code",
-      "kd": null,
-      "vol": null,
-      "score": null,
-      "internalPostLinks": 0,
-      "internalTermLinks": 0,
-      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CcbFqd7T7zQ6NfPNJvAPK\"}",
-      "finishedAt": "2026-07-01T11:26:49.763Z"
     }
   ]
 }
