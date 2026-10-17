@@ -219,10 +219,10 @@
     },
     {
       "topic": "cheap alternatives to ZoomInfo for small business",
-      "uses": 3,
+      "uses": 4,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-09-05T11:43:21.020Z"
+      "lastRun": "2026-10-17T12:01:34.104Z"
     },
     {
       "topic": "PhantomBuster alternatives for local prospecting",
@@ -289,6 +289,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-10-17T12:01:34.104Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-10-17T12:01:34.107Z"
+        },
+        {
+          "msg": "Topic: \"cheap alternatives to ZoomInfo for small business\" (used 3x before)",
+          "type": "info",
+          "time": "2026-10-17T12:01:34.110Z"
+        },
+        {
+          "msg": "Active tier: 3 — Competing (KD<=65, vol>=500)",
+          "type": "info",
+          "time": "2026-10-17T12:01:34.110Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-10-17T12:01:34.110Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-10-17T12:01:34.642Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-10-17T12:01:34.642Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-10-17T12:01:34.643Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-10-17T12:01:34.644Z"
+        },
+        {
+          "msg": "Found 770 published posts",
+          "type": "info",
+          "time": "2026-10-17T12:01:34.752Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-10-17T12:01:35.566Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-10-17T12:01:35.568Z"
+        },
+        {
+          "msg": "  Posts (3): \"8 Cheap Alternatives To Zoominfo That Small Businesses Actually Use In 2024\", \"How To Find Small Business Contact Information 7 Proven Methods That Work\", \"How To Organize Business Leads To Csv Format Complete Guide For Sales Teams\"",
+          "type": "info",
+          "time": "2026-10-17T12:01:35.568Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Google Business Profile\", \"Glossary\", \"Glossary/Zip Code Prospecting\"",
+          "type": "info",
+          "time": "2026-10-17T12:01:35.568Z"
+        },
+        {
+          "msg": "Writing article for \"cheap alternatives to ZoomInfo for small business\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-10-17T12:01:35.569Z"
+        }
+      ],
+      "topic": "cheap alternatives to ZoomInfo for small business",
+      "tierId": 3,
+      "keyword": "cheap alternatives to ZoomInfo for small business",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011Cg7mrHbVU36LNyDnLJCRn\"}",
+      "finishedAt": "2026-10-17T12:01:35.907Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-10-16T13:04:53.463Z",
@@ -8822,92 +8908,6 @@
       "internalTermLinks": 3,
       "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CcrNswNjVzK33pKgFPUSG\"}",
       "finishedAt": "2026-07-09T11:08:03.656Z"
-    },
-    {
-      "status": "error",
-      "startedAt": "2026-07-08T10:21:28.751Z",
-      "logs": [
-        {
-          "msg": "Loading state...",
-          "type": "info",
-          "time": "2026-07-08T10:21:28.754Z"
-        },
-        {
-          "msg": "Topic: \"how to find mortgage broker leads\" (used 1x before)",
-          "type": "info",
-          "time": "2026-07-08T10:21:28.756Z"
-        },
-        {
-          "msg": "Active tier: 2 — Growing (KD<=45, vol>=100)",
-          "type": "info",
-          "time": "2026-07-08T10:21:28.757Z"
-        },
-        {
-          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
-          "type": "info",
-          "time": "2026-07-08T10:21:28.757Z"
-        },
-        {
-          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
-          "type": "warn",
-          "time": "2026-07-08T10:21:29.168Z"
-        },
-        {
-          "msg": "Fetching internal link sources...",
-          "type": "info",
-          "time": "2026-07-08T10:21:29.168Z"
-        },
-        {
-          "msg": "Fetching post sitemap...",
-          "type": "info",
-          "time": "2026-07-08T10:21:29.168Z"
-        },
-        {
-          "msg": "Fetching glossary terms sitemap...",
-          "type": "info",
-          "time": "2026-07-08T10:21:29.170Z"
-        },
-        {
-          "msg": "Found 51 glossary terms",
-          "type": "info",
-          "time": "2026-07-08T10:21:29.525Z"
-        },
-        {
-          "msg": "Found 666 published posts",
-          "type": "info",
-          "time": "2026-07-08T10:21:29.529Z"
-        },
-        {
-          "msg": "Internal links selected:",
-          "type": "info",
-          "time": "2026-07-08T10:21:29.532Z"
-        },
-        {
-          "msg": "  Posts (3): \"How To Find Local Business Leads 7 Proven Strategies That Actually Work\", \"How To Find Dentist Leads A Complete Guide For B2b Sales Success\", \"How To Find Quality Roofing Contractor Leads By Zip Code In 2024\"",
-          "type": "info",
-          "time": "2026-07-08T10:21:29.532Z"
-        },
-        {
-          "msg": "  Terms (3): \"Glossary\", \"Glossary/Zip Code Prospecting\", \"Glossary/Lead Generation\"",
-          "type": "info",
-          "time": "2026-07-08T10:21:29.532Z"
-        },
-        {
-          "msg": "Writing article for \"how to find mortgage broker leads\" (competition: unknown)...",
-          "type": "info",
-          "time": "2026-07-08T10:21:29.532Z"
-        }
-      ],
-      "topic": "how to find mortgage broker leads",
-      "tierId": 2,
-      "keyword": "how to find mortgage broker leads",
-      "kd": null,
-      "vol": null,
-      "score": null,
-      "internalPostLinks": 3,
-      "internalTermLinks": 3,
-      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CcpRX4weoVDzAirEXd5fS\"}",
-      "finishedAt": "2026-07-08T10:21:29.722Z"
     }
   ]
 }
