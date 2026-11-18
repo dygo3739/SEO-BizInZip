@@ -156,10 +156,10 @@
     },
     {
       "topic": "email prospecting for insurance agents",
-      "uses": 4,
+      "uses": 5,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-10-08T15:21:46.654Z"
+      "lastRun": "2026-11-18T17:01:07.196Z"
     },
     {
       "topic": "how to write a cold email to a local business",
@@ -289,6 +289,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-11-18T17:01:07.196Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-11-18T17:01:07.199Z"
+        },
+        {
+          "msg": "Topic: \"email prospecting for insurance agents\" (used 4x before)",
+          "type": "info",
+          "time": "2026-11-18T17:01:07.202Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-11-18T17:01:07.202Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-11-18T17:01:07.203Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-11-18T17:01:07.807Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-11-18T17:01:07.807Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-11-18T17:01:07.807Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-11-18T17:01:07.809Z"
+        },
+        {
+          "msg": "Found 799 published posts",
+          "type": "info",
+          "time": "2026-11-18T17:01:07.908Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-11-18T17:01:08.819Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-11-18T17:01:08.821Z"
+        },
+        {
+          "msg": "  Posts (3): \"How Insurance Agents Find New Clients 8 Proven Strategies That Work\", \"How To Write A Cold Email To Local Businesses That Actually Gets Responses\", \"7 Local Business Prospecting Tips That Actually Work From A Sales Pro\"",
+          "type": "info",
+          "time": "2026-11-18T17:01:08.821Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/Zip Code Prospecting\", \"Glossary/Cold Email\", \"Glossary/Business Email Finder\"",
+          "type": "info",
+          "time": "2026-11-18T17:01:08.821Z"
+        },
+        {
+          "msg": "Writing article for \"email prospecting for insurance agents\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-11-18T17:01:08.821Z"
+        }
+      ],
+      "topic": "email prospecting for insurance agents",
+      "tierId": 4,
+      "keyword": "email prospecting for insurance agents",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChAkaURnn4v4AWdTtfmuR\"}",
+      "finishedAt": "2026-11-18T17:01:08.977Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-11-17T17:28:01.986Z",
@@ -8822,92 +8908,6 @@
       "internalTermLinks": 3,
       "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CdtpvAudg3ocfiTccuoKW\"}",
       "finishedAt": "2026-08-10T09:25:10.238Z"
-    },
-    {
-      "status": "error",
-      "startedAt": "2026-08-09T08:46:21.334Z",
-      "logs": [
-        {
-          "msg": "Loading state...",
-          "type": "info",
-          "time": "2026-08-09T08:46:21.338Z"
-        },
-        {
-          "msg": "Topic: \"best ways to get business leads without a subscription\" (used 2x before)",
-          "type": "info",
-          "time": "2026-08-09T08:46:21.341Z"
-        },
-        {
-          "msg": "Active tier: 3 — Competing (KD<=65, vol>=500)",
-          "type": "info",
-          "time": "2026-08-09T08:46:21.341Z"
-        },
-        {
-          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
-          "type": "info",
-          "time": "2026-08-09T08:46:21.341Z"
-        },
-        {
-          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
-          "type": "warn",
-          "time": "2026-08-09T08:46:21.824Z"
-        },
-        {
-          "msg": "Fetching internal link sources...",
-          "type": "info",
-          "time": "2026-08-09T08:46:21.824Z"
-        },
-        {
-          "msg": "Fetching post sitemap...",
-          "type": "info",
-          "time": "2026-08-09T08:46:21.824Z"
-        },
-        {
-          "msg": "Fetching glossary terms sitemap...",
-          "type": "info",
-          "time": "2026-08-09T08:46:21.826Z"
-        },
-        {
-          "msg": "Found 0 published posts",
-          "type": "info",
-          "time": "2026-08-09T08:46:22.221Z"
-        },
-        {
-          "msg": "Found 0 glossary terms",
-          "type": "info",
-          "time": "2026-08-09T08:46:22.222Z"
-        },
-        {
-          "msg": "Internal links selected:",
-          "type": "info",
-          "time": "2026-08-09T08:46:22.223Z"
-        },
-        {
-          "msg": "  Posts (0): none",
-          "type": "info",
-          "time": "2026-08-09T08:46:22.223Z"
-        },
-        {
-          "msg": "  Terms (0): none",
-          "type": "info",
-          "time": "2026-08-09T08:46:22.223Z"
-        },
-        {
-          "msg": "Writing article for \"best ways to get business leads without a subscription\" (competition: unknown)...",
-          "type": "info",
-          "time": "2026-08-09T08:46:22.223Z"
-        }
-      ],
-      "topic": "best ways to get business leads without a subscription",
-      "tierId": 3,
-      "keyword": "best ways to get business leads without a subscription",
-      "kd": null,
-      "vol": null,
-      "score": null,
-      "internalPostLinks": 0,
-      "internalTermLinks": 0,
-      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011Cdrt9fJdjpUwJUwCfWw3B\"}",
-      "finishedAt": "2026-08-09T08:46:22.403Z"
     }
   ]
 }
