@@ -184,10 +184,10 @@
     },
     {
       "topic": "ZoomInfo alternatives for local sales reps",
-      "uses": 4,
+      "uses": 5,
       "lastKd": null,
       "lastScore": null,
-      "lastRun": "2026-10-12T17:31:47.250Z"
+      "lastRun": "2026-11-22T16:01:20.400Z"
     },
     {
       "topic": "why local businesses don't need ZoomInfo",
@@ -289,6 +289,92 @@
     }
   ],
   "runs": [
+    {
+      "status": "error",
+      "startedAt": "2026-11-22T16:01:20.400Z",
+      "logs": [
+        {
+          "msg": "Loading state...",
+          "type": "info",
+          "time": "2026-11-22T16:01:20.402Z"
+        },
+        {
+          "msg": "Topic: \"ZoomInfo alternatives for local sales reps\" (used 4x before)",
+          "type": "info",
+          "time": "2026-11-22T16:01:20.405Z"
+        },
+        {
+          "msg": "Active tier: 4 — Authority (KD<=100, vol>=1000)",
+          "type": "info",
+          "time": "2026-11-22T16:01:20.405Z"
+        },
+        {
+          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
+          "type": "info",
+          "time": "2026-11-22T16:01:20.405Z"
+        },
+        {
+          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
+          "type": "warn",
+          "time": "2026-11-22T16:01:21.032Z"
+        },
+        {
+          "msg": "Fetching internal link sources...",
+          "type": "info",
+          "time": "2026-11-22T16:01:21.032Z"
+        },
+        {
+          "msg": "Fetching post sitemap...",
+          "type": "info",
+          "time": "2026-11-22T16:01:21.033Z"
+        },
+        {
+          "msg": "Fetching glossary terms sitemap...",
+          "type": "info",
+          "time": "2026-11-22T16:01:21.034Z"
+        },
+        {
+          "msg": "Found 51 glossary terms",
+          "type": "info",
+          "time": "2026-11-22T16:01:21.240Z"
+        },
+        {
+          "msg": "Found 802 published posts",
+          "type": "info",
+          "time": "2026-11-22T16:01:21.269Z"
+        },
+        {
+          "msg": "Internal links selected:",
+          "type": "info",
+          "time": "2026-11-22T16:01:21.271Z"
+        },
+        {
+          "msg": "  Posts (3): \"Why Local Sales Reps Are Ditching Zoominfo And What They Use Instead\", \"7 Local Business Prospecting Tips That Actually Work From A Sales Pro\", \"How Sales Teams Can Access And Use Local Business Data To Close More Deals\"",
+          "type": "info",
+          "time": "2026-11-22T16:01:21.271Z"
+        },
+        {
+          "msg": "  Terms (3): \"Glossary/B2b Sales\", \"Glossary/Outbound Sales\", \"Glossary\"",
+          "type": "info",
+          "time": "2026-11-22T16:01:21.271Z"
+        },
+        {
+          "msg": "Writing article for \"ZoomInfo alternatives for local sales reps\" (competition: unknown)...",
+          "type": "info",
+          "time": "2026-11-22T16:01:21.271Z"
+        }
+      ],
+      "topic": "ZoomInfo alternatives for local sales reps",
+      "tierId": 4,
+      "keyword": "ZoomInfo alternatives for local sales reps",
+      "kd": null,
+      "vol": null,
+      "score": null,
+      "internalPostLinks": 3,
+      "internalTermLinks": 3,
+      "error": "Anthropic API HTTP 401: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChJFFgNkqPW4tSYYJLE8i\"}",
+      "finishedAt": "2026-11-22T16:01:21.413Z"
+    },
     {
       "status": "error",
       "startedAt": "2026-11-21T15:57:41.152Z",
@@ -8832,92 +8918,6 @@
       "internalTermLinks": 3,
       "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011Ce2P1vDGFebkahnd2LP5D\"}",
       "finishedAt": "2026-08-14T09:10:16.089Z"
-    },
-    {
-      "status": "error",
-      "startedAt": "2026-08-13T09:15:03.194Z",
-      "logs": [
-        {
-          "msg": "Loading state...",
-          "type": "info",
-          "time": "2026-08-13T09:15:03.197Z"
-        },
-        {
-          "msg": "Topic: \"roofing contractor leads by zip code\" (used 2x before)",
-          "type": "info",
-          "time": "2026-08-13T09:15:03.200Z"
-        },
-        {
-          "msg": "Active tier: 3 — Competing (KD<=65, vol>=500)",
-          "type": "info",
-          "time": "2026-08-13T09:15:03.200Z"
-        },
-        {
-          "msg": "Fetching search volume for 8 variants (niche: finding local business contact info by zip code, B2B lead generation, and sales prospecting)...",
-          "type": "info",
-          "time": "2026-08-13T09:15:03.201Z"
-        },
-        {
-          "msg": "DataForSEO skipped (DataForSEO /keywords_data/google_ads/search_volume/live HTTP 401) - using topic as keyword",
-          "type": "warn",
-          "time": "2026-08-13T09:15:03.778Z"
-        },
-        {
-          "msg": "Fetching internal link sources...",
-          "type": "info",
-          "time": "2026-08-13T09:15:03.778Z"
-        },
-        {
-          "msg": "Fetching post sitemap...",
-          "type": "info",
-          "time": "2026-08-13T09:15:03.778Z"
-        },
-        {
-          "msg": "Fetching glossary terms sitemap...",
-          "type": "info",
-          "time": "2026-08-13T09:15:03.780Z"
-        },
-        {
-          "msg": "Found 671 published posts",
-          "type": "info",
-          "time": "2026-08-13T09:15:04.632Z"
-        },
-        {
-          "msg": "Found 51 glossary terms",
-          "type": "info",
-          "time": "2026-08-13T09:15:04.635Z"
-        },
-        {
-          "msg": "Internal links selected:",
-          "type": "info",
-          "time": "2026-08-13T09:15:04.636Z"
-        },
-        {
-          "msg": "  Posts (3): \"How To Find Quality Roofing Contractor Leads By Zip Code In 2024\", \"How To Find Local Business Leads By Zip Code Before Your Competition Does\", \"How To Organize Business Leads To Csv Format Complete Guide For Sales Teams\"",
-          "type": "info",
-          "time": "2026-08-13T09:15:04.636Z"
-        },
-        {
-          "msg": "  Terms (3): \"Glossary/Zip Code Prospecting\", \"Glossary\", \"Glossary/Lead Generation\"",
-          "type": "info",
-          "time": "2026-08-13T09:15:04.636Z"
-        },
-        {
-          "msg": "Writing article for \"roofing contractor leads by zip code\" (competition: unknown)...",
-          "type": "info",
-          "time": "2026-08-13T09:15:04.637Z"
-        }
-      ],
-      "topic": "roofing contractor leads by zip code",
-      "tierId": 3,
-      "keyword": "roofing contractor leads by zip code",
-      "kd": null,
-      "vol": null,
-      "score": null,
-      "internalPostLinks": 3,
-      "internalTermLinks": 3,
-      "error": "Anthropic API HTTP 404: {\"type\":\"error\",\"error\":{\"type\":\"not_found_error\",\"message\":\"model: claude-sonnet-4-20250514\"},\"request_id\":\"req_011CdzVaJ21ryazMwmyM5EGg\"}",
-      "finishedAt": "2026-08-13T09:15:04.884Z"
     }
   ]
 }
